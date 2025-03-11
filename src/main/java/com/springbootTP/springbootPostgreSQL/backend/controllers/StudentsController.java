@@ -2,7 +2,6 @@ package com.springbootTP.springbootPostgreSQL.backend.controllers;
 
 import com.springbootTP.springbootPostgreSQL.backend.model.Students;
 import com.springbootTP.springbootPostgreSQL.backend.service.IStudentsService;
-import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

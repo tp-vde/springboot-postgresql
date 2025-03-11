@@ -49,25 +49,32 @@
 			<scope>provided</scope>
 		</dependency>
 
-		<!-- Spring Boot Security pour l'authentification
+		<!-- Spring Boot Security pour l'authentification -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency> -->
+		</dependency>
 
-		<!-- JWT pour l'authentification avec tokens
+		<!-- JWT pour l'authentification avec tokens -->
+		<!-- Gestion des JWT pour l'authentification -->
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
 			<artifactId>jjwt-api</artifactId>
 			<version>0.11.5</version>
 		</dependency>
-
+		<dependency>
+			<groupId>io.jsonwebtoken</groupId>
+			<artifactId>jjwt-impl</artifactId>
+			<version>0.11.5</version>
+			<scope>runtime</scope>
+		</dependency>
 		<dependency>
 			<groupId>io.jsonwebtoken</groupId>
 			<artifactId>jjwt-jackson</artifactId>
 			<version>0.11.5</version>
 			<scope>runtime</scope>
-		</dependency> -->
+		</dependency>
+
 
 		<!-- Validation des entrées utilisateur -->
 		<dependency>

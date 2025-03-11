@@ -7,9 +7,11 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-@EnableJpaRepositories("com.springbootTP.springbootPostgreSQL.backend.repository")
+@EnableJpaRepositories(basePackages = {"com.springbootTP.springbootPostgreSQL.backend.repository"
+		, "com.springbootTP.springbootPostgreSQL.backend.security.repository"})
 @ComponentScan(basePackages = "com.springbootTP.springbootPostgreSQL.backend")
-@EntityScan(basePackages = {"com.springbootTP.springbootPostgreSQL.backend"})
+@EntityScan(basePackages = {"com.springbootTP.springbootPostgreSQL.backend"
+		, "com.springbootTP.springbootPostgreSQL.backend.security"})
 public class SpringbootPostgreSqlApplication {
 
 	public static void main(String[] args) {
