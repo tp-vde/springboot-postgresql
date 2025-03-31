@@ -29,6 +29,23 @@
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
+
+		<!-- SLF4J + Logback -->
+
+			<!-- SLF4J API -->
+			<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+			</dependency>
+
+			<!-- Implémentation Logback -->
+			<dependency>
+				<groupId>ch.qos.logback</groupId>
+				<artifactId>logback-classic</artifactId>
+			</dependency>
+
+
+
 		<!-- Spring Boot Data JPA pour PostgreSQL -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

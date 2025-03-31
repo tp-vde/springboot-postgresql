@@ -26,37 +26,39 @@ services:
 
   springboot-app:
     build: .
-    container_name: vde_springboot
+    container_name: Backend
     restart: always
     ports:
       - "8080:8080"
     depends_on:
       - postgres
     environment:
-      # 🔹 Configuration de la base PostgreSQL
+      # Configuration de la base PostgreSQL
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/vde_database
       SPRING_DATASOURCE_USERNAME: postgres
       SPRING_DATASOURCE_PASSWORD: password
       SPRING_DATASOURCE_DRIVER-CLASS-NAME: org.postgresql.Driver
+      SPRING_JPA_OPEN-IN-VIEW: false
 
-      # 🔹 Configuration de Hibernate (ORM)
+      #  Configuration de Hibernate (ORM)
       SPRING_JPA_DATABASE-PLATFORM: org.hibernate.dialect.PostgreSQLDialect
       SPRING_JPA_HIBERNATE_DDL_AUTO: update
       SPRING_JPA_SHOW_SQL: "true"
 
-      # 🔹 Configuration des logs pour voir les requêtes SQL
+      #  Configuration des logs pour voir les requêtes SQL
       LOGGING_LEVEL_ORG_SPRINGFRAMEWORK_WEB: DEBUG
       LOGGING_LEVEL_ORG_HIBERNATE_SQL: DEBUG
       LOGGING_LEVEL_ORG_HIBERNATE_TYPE_DESCRIPTOR_SQL_BASICBINDER: TRACE
 
-      # 🔹 Configuration JWT
-      JWT_EXPIRATION: 86400000
+      #  Configuration JWT
       JWT_SECRET: coolkey-secret-key  # Clé secrète pour les tokens JWT
 
-      # 🔹 Autres configurations
+      #  Autres configurations
       MANAGEMENT_ENDPOINTS_WEB_EXPOSURE_INCLUDE: "*"
       SPRING_MAIN_ALLOW_CIRCULAR_REFERENCES: "true"
 
+    volumes:
+      - ./logs:/logs  #  Synchronisation des logs
 
 
 volumes:

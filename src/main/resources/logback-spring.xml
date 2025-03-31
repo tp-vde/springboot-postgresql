@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true">
+
+    <!-- Appender Console pour Docker (STDOUT) -->
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss}] [%level] ==> %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Appender Fichier pour logs persistants -->
+    <appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>/logs/app.log</file>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>/logs/app-%d{yyyy-MM-dd}.log</fileNamePattern>
+            <maxHistory>30</maxHistory>
+        </rollingPolicy>
+        <encoder>
+            <pattern>[%d{yyyy-MM-dd HH:mm:ss}] [%level] ==> %msg%n</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Niveau de log par défaut -->
+    <root level="info">
+        <appender-ref ref="STDOUT"/>
+        <appender-ref ref="FILE"/>
+    </root>
+
+    <!-- Réduction des logs inutiles -->
+    <logger name="org.springframework" level="info"/>
+    <logger name="org.hibernate.SQL" level="info"/>
+    <logger name="org.hibernate.type.descriptor.sql.BasicBinder" level="info"/>
+    <logger name="org.springframework.security" level="info"/>
+    <!-- Filtrage des logs de Spring Boot -->
+    <logger name="org.springframework" level="ERROR" additivity="false">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <!-- Filtrage des logs Hibernate pour éviter trop de détails SQL -->
+    <logger name="org.hibernate" level="ERROR" additivity="false">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+    <!-- Réduction des logs PostgreSQL -->
+    <logger name="org.postgresql" level="ERROR" additivity="false">
+        <appender-ref ref="STDOUT"/>
+    </logger>
+
+</configuration>

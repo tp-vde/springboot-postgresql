@@ -3,6 +3,7 @@ package com.springbootTP.springbootPostgreSQL.backend.security.service;
 import com.springbootTP.springbootPostgreSQL.backend.security.model.Role;
 import com.springbootTP.springbootPostgreSQL.backend.security.model.Users;
 import com.springbootTP.springbootPostgreSQL.backend.security.repository.UsersRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.User;
@@ -15,6 +16,7 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 
 @Service
+@Slf4j
 public class JwtService implements JwtServiceInterface, UserDetailsService {
 
     private final UsersRepository usersRepository;
@@ -28,25 +30,36 @@ public class JwtService implements JwtServiceInterface, UserDetailsService {
 
     @Override
     public UserDetails loadUserByUsername(String email) throws UsernameNotFoundException {
-        Users users = usersRepository.findByEmail(email)
-                .orElseThrow(() -> new UsernameNotFoundException("Utilisateur non trouvé"));
+        log.debug("Chargement des détails de l'utilisateur pour l'email : {}", email);
 
-        return new User(users.getEmail(), users.getPassword(),
-                List.of(new SimpleGrantedAuthority("ROLE_" + users.getRole().name())));
+        Users user = usersRepository.findByEmail(email)
+                .orElseThrow(() -> {
+                    log.warn("Utilisateur non trouvé pour l'email : {}", email);
+                    return new UsernameNotFoundException("Utilisateur non trouvé");
+                });
+
+        log.debug("Détails de l'utilisateur chargés : {}", user);
+        return new User(user.getEmail(), user.getPassword(),
+                List.of(new SimpleGrantedAuthority("ROLE_" + user.getRole().name())));
     }
 
     @Override
     public Users registerUser(String email, String username, String password, Role role) {
+        log.info("Tentative d'inscription pour l'utilisateur avec l'email : {}", email);
+
         if (usersRepository.findByEmail(email).isPresent()) {
+            log.warn("Email déjà utilisé pour l'utilisateur : {}", email);
             throw new RuntimeException("Email déjà utilisé !");
         }
 
-        Users user = new Users();
-        user.setEmail(email);
-        user.setUsername(username);
-        user.setPassword(passwordEncoder.encode(password));
-        user.setRole(role);
+        Users newUser = new Users();
+        newUser.setEmail(email);
+        newUser.setUsername(username);
+        newUser.setPassword(passwordEncoder.encode(password));
+        newUser.setRole(role);
 
-        return usersRepository.save(user);
+        Users savedUser = usersRepository.save(newUser);
+        log.info("Inscription réussie pour l'utilisateur avec l'email : {}", email);
+        return savedUser;
     }
 }

@@ -2,7 +2,7 @@ package com.springbootTP.springbootPostgreSQL.backend.security.filters;
 
 import io.jsonwebtoken.*;
 import io.jsonwebtoken.security.Keys;
-import org.springframework.security.core.userdetails.UserDetails;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 import java.nio.charset.StandardCharsets;
@@ -11,64 +11,70 @@ import java.util.Date;
 import java.util.function.Function;
 
 @Component
+@Slf4j
 public class JwtUtil {
 
-    // Clé secrète sous forme de tableau de bytes pour éviter les erreurs de conversion
+    // Clé secrète pour signer les tokens
     private static final byte[] SECRET_KEY_BYTES = "superSecretKeyForJWTGenerationAndValidation123!".getBytes(StandardCharsets.UTF_8);
     private static final Key SECRET_KEY = Keys.hmacShaKeyFor(SECRET_KEY_BYTES);
 
     // Durée de validité des tokens
-    private static final long ACCESS_TOKEN_VALIDITY = 1000 * 60 * 60; // 1 heure
-    private static final long REFRESH_TOKEN_VALIDITY = 1000 * 60 * 60 * 24 * 7; // 7 jours
+    private static final long ACCESS_TOKEN_VALIDITY = 1000L * 60; // 1 minute
+    private static final long REFRESH_TOKEN_VALIDITY = 1000L * 60 *2; // 60 * 24; // 24 heures
 
-    // Génération du token d'accès
-    public String generateAccessToken(UserDetails userDetails) {
-        return generateToken(userDetails, ACCESS_TOKEN_VALIDITY);
+    // Générer un token d'accès
+    public String generateAccessToken(String username) {
+        return generateToken(username, ACCESS_TOKEN_VALIDITY);
     }
 
-    // Génération du token de rafraîchissement
-    public String generateRefreshToken(UserDetails userDetails) {
-        return generateToken(userDetails, REFRESH_TOKEN_VALIDITY);
+    // Générer un refresh token
+    public String generateRefreshToken(String username) {
+        return generateToken(username, REFRESH_TOKEN_VALIDITY);
     }
 
     // Méthode privée pour générer un token avec une durée spécifique
-    private String generateToken(UserDetails userDetails, long expirationTime) {
+    private String generateToken(String username, long validity) {
         return Jwts.builder()
-                .setSubject(userDetails.getUsername())
-                .claim("roles", userDetails.getAuthorities().toString())
+                .setSubject(username)
                 .setIssuedAt(new Date())
-                .setExpiration(new Date(System.currentTimeMillis() + expirationTime))
+                .setExpiration(new Date(System.currentTimeMillis() + validity))
                 .signWith(SECRET_KEY, SignatureAlgorithm.HS256)
                 .compact();
     }
 
-    // Validation du token
-    public boolean validateToken(String token, UserDetails userDetails) {
+    // Valider un token
+    public boolean validateToken(String token, String username) {
         try {
-            return getUsernameFromToken(token).equals(userDetails.getUsername()) && !isTokenExpired(token);
+            final String extractedUsername = extractUsername(token);
+            return extractedUsername.equals(username) && !isTokenExpired(token);
         } catch (JwtException e) {
-            System.out.println("JWT invalide : " + e.getMessage());
+            log.warn("JWT invalide : {}", e.getMessage());
             return false;
         }
     }
 
-    // Récupérer username depuis le token
-    public String getUsernameFromToken(String token) {
+    // Extraire le nom d'utilisateur depuis un token
+    public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);
     }
 
-    // Vérifier si le token est expiré
+    // Vérifier si un token est expiré
     public boolean isTokenExpired(String token) {
         return extractClaim(token, Claims::getExpiration).before(new Date());
     }
 
-    // Extraire un claim spécifique du token
+    // Extraire un claim spécifique d'un token
     private <T> T extractClaim(String token, Function<Claims, T> claimsResolver) {
-        final Claims claims = Jwts.parserBuilder()
+        final Claims claims = extractAllClaims(token);
+        return claimsResolver.apply(claims);
+    }
+
+    // Extraire tous les claims d'un token
+    private Claims extractAllClaims(String token) {
+        return Jwts.parserBuilder()
                 .setSigningKey(SECRET_KEY)
                 .build()
                 .parseClaimsJws(token)
                 .getBody();
-        return claimsResolver.apply(claims);
     }
 }

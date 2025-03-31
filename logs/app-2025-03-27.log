@@ -1,0 +1,346 @@
+[2025-03-27 12:30:50] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+[2025-03-27 12:30:50] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
+[2025-03-27 12:31:04] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
+[2025-03-27 12:31:04] [INFO] ==> Starting service [Tomcat]
+[2025-03-27 12:31:04] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
+[2025-03-27 12:31:04] [INFO] ==> Initializing Spring embedded WebApplicationContext
+[2025-03-27 12:31:08] [INFO] ==> HikariPool-1 - Starting...
+[2025-03-27 12:31:10] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2cff03cf
+[2025-03-27 12:31:10] [INFO] ==> HikariPool-1 - Start completed.
+[2025-03-27 12:31:22] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
+[2025-03-27 12:31:22] [INFO] ==> Started SpringbootPostgreSqlApplication in 36.807 seconds (process running for 46.796)
+[2025-03-27 12:31:27] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-03-27 12:31:28] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 12:31:29] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 13:11:59] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 13:11:59] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 13:46:42] [INFO] ==> HikariPool-1 - Shutdown initiated...
+[2025-03-27 13:46:42] [INFO] ==> HikariPool-1 - Shutdown completed.
+[2025-03-27 13:49:07] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+[2025-03-27 13:49:07] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
+[2025-03-27 13:49:15] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
+[2025-03-27 13:49:15] [INFO] ==> Starting service [Tomcat]
+[2025-03-27 13:49:15] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
+[2025-03-27 13:49:16] [INFO] ==> Initializing Spring embedded WebApplicationContext
+[2025-03-27 13:49:18] [INFO] ==> HikariPool-1 - Starting...
+[2025-03-27 13:49:19] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@534fc1f7
+[2025-03-27 13:49:19] [INFO] ==> HikariPool-1 - Start completed.
+[2025-03-27 13:49:30] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
+[2025-03-27 13:49:30] [INFO] ==> Started SpringbootPostgreSqlApplication in 25.994 seconds (process running for 28.884)
+[2025-03-27 13:52:29] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-03-27 13:52:30] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : omar@gmail.com
+[2025-03-27 13:52:30] [WARN] ==> Utilisateur non trouvé pour l'email : omar@gmail.com
+[2025-03-27 13:52:30] [WARN] ==> Échec de la connexion pour l'utilisateur avec l'email : omar@gmail.com. Motif : Email ou mot de passe incorrect.
+[2025-03-27 13:52:31] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-27 13:52:31] [WARN] ==> Échec du rafraîchissement du token : Refresh token manquant.
+[2025-03-27 13:53:28] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 13:53:28] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 14:37:48] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 14:37:50] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 14:37:51] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 14:37:51] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:07] [WARN] ==> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=47s520ms622µs751ns).
+[2025-03-27 15:10:10] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:11] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:12] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:12] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:12] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:13] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:13] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:13] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:13] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:13] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:14] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:14] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:14] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:14] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:14] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:14] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:14] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:14] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:15] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:15] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:15] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:15] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:10:31] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:10:50] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:51:23] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:51:23] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:51:24] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:51:25] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:52:29] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:52:29] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:52:32] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:52:32] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:54:49] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:54:49] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:55:19] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:55:19] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:55:20] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:55:20] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:55:21] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:55:21] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:55:21] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:55:21] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:55:22] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:55:22] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:55:23] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:55:23] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:55:23] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:55:23] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:55:29] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:55:29] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:56:29] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:56:29] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:56:35] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:56:35] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:56:45] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:56:45] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:56:45] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:56:45] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:57:01] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:57:01] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:57:02] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:57:02] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:57:02] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:57:02] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:57:03] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:57:03] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:57:03] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:57:03] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:57:20] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:57:20] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:57:21] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:57:21] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:57:58] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:57:58] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 15:59:14] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:59:15] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 15:59:15] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 15:59:15] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:00:46] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:00:46] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:02:15] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:02:15] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:03:02] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:03:02] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:04:11] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:04:11] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:04:11] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:04:11] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:05:24] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:05:24] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:06:15] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:06:15] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:06:40] [WARN] ==> Le token a expiré : JWT expired at 2025-03-19T15:01:52Z. Current time: 2025-03-27T16:06:40Z, a difference of 695088214 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-27 16:07:07] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:07:07] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:07:21] [WARN] ==> Le token a expiré : JWT expired at 2025-03-19T15:01:52Z. Current time: 2025-03-27T16:07:21Z, a difference of 695129144 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-27 16:07:24] [WARN] ==> Le token a expiré : JWT expired at 2025-03-19T15:01:52Z. Current time: 2025-03-27T16:07:24Z, a difference of 695132774 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-27 16:08:54] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:08:54] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:09:18] [WARN] ==> Le token a expiré : JWT expired at 2025-03-19T15:01:52Z. Current time: 2025-03-27T16:09:18Z, a difference of 695246258 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-27 16:11:05] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:11:05] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:12:01] [WARN] ==> Le token a expiré : JWT expired at 2025-03-19T15:38:23Z. Current time: 2025-03-27T16:12:01Z, a difference of 693218926 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-27 16:12:28] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:12:28] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:12:57] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:12:57] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:13:26] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:13:26] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:13:36] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:13:36] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:13:38] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:13:38] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:13:41] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:13:41] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:13:43] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:13:43] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:13:44] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:13:45] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:13:46] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:13:46] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:13:48] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:13:48] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:13:49] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:13:49] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:13:51] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:13:51] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:13:52] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:13:52] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:14:00] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:14:00] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:14:02] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:14:02] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:14:10] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:14:10] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:14:12] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:14:12] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:14:14] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:14:14] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:14:19] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:14:19] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:14:24] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:14:24] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:14:26] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:14:26] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:14:28] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:14:28] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:14:30] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:14:30] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:14:42] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:14:42] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:14:54] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:14:54] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:15:34] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:15:34] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:16:33] [INFO] ==> HikariPool-1 - Shutdown initiated...
+[2025-03-27 16:16:33] [INFO] ==> HikariPool-1 - Shutdown completed.
+[2025-03-27 16:22:35] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+[2025-03-27 16:22:36] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
+[2025-03-27 16:22:53] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
+[2025-03-27 16:22:53] [INFO] ==> Starting service [Tomcat]
+[2025-03-27 16:22:53] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
+[2025-03-27 16:22:54] [INFO] ==> Initializing Spring embedded WebApplicationContext
+[2025-03-27 16:22:58] [INFO] ==> HikariPool-1 - Starting...
+[2025-03-27 16:22:59] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4b56b517
+[2025-03-27 16:22:59] [INFO] ==> HikariPool-1 - Start completed.
+[2025-03-27 16:23:11] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
+[2025-03-27 16:23:12] [INFO] ==> Started SpringbootPostgreSqlApplication in 39.955 seconds (process running for 43.766)
+[2025-03-27 16:23:14] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-03-27 16:23:14] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:23:16] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:23:30] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:23:30] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:24:51] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:24:51] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:25:29] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:25:29] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:26:03] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:26:03] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:28:58] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:28:58] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:29:59] [INFO] ==> HikariPool-1 - Shutdown initiated...
+[2025-03-27 16:29:59] [INFO] ==> HikariPool-1 - Shutdown completed.
+[2025-03-27 16:35:08] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+[2025-03-27 16:35:08] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
+[2025-03-27 16:35:18] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
+[2025-03-27 16:35:18] [INFO] ==> Starting service [Tomcat]
+[2025-03-27 16:35:18] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
+[2025-03-27 16:35:18] [INFO] ==> Initializing Spring embedded WebApplicationContext
+[2025-03-27 16:35:21] [INFO] ==> HikariPool-1 - Starting...
+[2025-03-27 16:35:22] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1ba7db2a
+[2025-03-27 16:35:22] [INFO] ==> HikariPool-1 - Start completed.
+[2025-03-27 16:35:32] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
+[2025-03-27 16:35:33] [INFO] ==> Started SpringbootPostgreSqlApplication in 28.013 seconds (process running for 30.258)
+[2025-03-27 16:35:40] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-03-27 16:35:41] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:35:43] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:36:06] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:36:06] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:36:52] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:36:52] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:37:16] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:37:16] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:37:53] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:37:53] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:38:44] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:38:44] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:39:06] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:39:06] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:39:07] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:39:07] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:39:09] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:39:09] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:39:10] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:39:10] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:41:47] [INFO] ==> HikariPool-1 - Shutdown initiated...
+[2025-03-27 16:41:47] [INFO] ==> HikariPool-1 - Shutdown completed.
+[2025-03-27 16:49:33] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+[2025-03-27 16:49:33] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
+[2025-03-27 16:49:42] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
+[2025-03-27 16:49:42] [INFO] ==> Starting service [Tomcat]
+[2025-03-27 16:49:42] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
+[2025-03-27 16:49:42] [INFO] ==> Initializing Spring embedded WebApplicationContext
+[2025-03-27 16:49:45] [INFO] ==> HikariPool-1 - Starting...
+[2025-03-27 16:49:46] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3595086b
+[2025-03-27 16:49:46] [INFO] ==> HikariPool-1 - Start completed.
+[2025-03-27 16:49:58] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
+[2025-03-27 16:49:58] [INFO] ==> Started SpringbootPostgreSqlApplication in 27.583 seconds (process running for 29.734)
+[2025-03-27 16:50:24] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-03-27 16:50:24] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:50:26] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 16:50:44] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:50:44] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:51:34] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:51:34] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:51:36] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:51:36] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:51:42] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:51:42] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:51:44] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:51:44] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:51:46] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:51:46] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 16:55:09] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 16:55:10] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 17:06:25] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 17:06:25] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 17:07:48] [WARN] ==> Le token a expiré : JWT expired at 2025-03-27T16:51:26Z. Current time: 2025-03-27T17:07:48Z, a difference of 982939 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-27 17:10:47] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 17:10:48] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 17:11:03] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 17:11:03] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 17:11:51] [WARN] ==> Le token a expiré : JWT expired at 2025-03-27T17:11:48Z. Current time: 2025-03-27T17:11:51Z, a difference of 3980 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-27 17:19:06] [INFO] ==> HikariPool-1 - Shutdown initiated...
+[2025-03-27 17:19:06] [INFO] ==> HikariPool-1 - Shutdown completed.
+[2025-03-27 17:23:17] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+[2025-03-27 17:23:17] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
+[2025-03-27 17:23:27] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
+[2025-03-27 17:23:27] [INFO] ==> Starting service [Tomcat]
+[2025-03-27 17:23:27] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
+[2025-03-27 17:23:27] [INFO] ==> Initializing Spring embedded WebApplicationContext
+[2025-03-27 17:23:31] [INFO] ==> HikariPool-1 - Starting...
+[2025-03-27 17:23:32] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@e171f93
+[2025-03-27 17:23:32] [INFO] ==> HikariPool-1 - Start completed.
+[2025-03-27 17:23:47] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
+[2025-03-27 17:23:48] [INFO] ==> Started SpringbootPostgreSqlApplication in 34.18 seconds (process running for 37.451)
+[2025-03-27 17:23:52] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-03-27 17:23:52] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 17:23:54] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 17:24:15] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 17:24:15] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 17:25:16] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 17:25:17] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 17:25:23] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 17:25:23] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 17:26:17] [INFO] ==> HikariPool-1 - Shutdown initiated...
+[2025-03-27 17:26:18] [INFO] ==> HikariPool-1 - Shutdown completed.
+[2025-03-27 17:42:46] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+[2025-03-27 17:42:46] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
+[2025-03-27 17:42:59] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
+[2025-03-27 17:42:59] [INFO] ==> Starting service [Tomcat]
+[2025-03-27 17:42:59] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
+[2025-03-27 17:43:00] [INFO] ==> Initializing Spring embedded WebApplicationContext
+[2025-03-27 17:43:03] [INFO] ==> HikariPool-1 - Starting...
+[2025-03-27 17:43:06] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@7157413e
+[2025-03-27 17:43:06] [INFO] ==> HikariPool-1 - Start completed.
+[2025-03-27 17:43:22] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
+[2025-03-27 17:43:22] [INFO] ==> Started SpringbootPostgreSqlApplication in 41.54 seconds (process running for 48.661)
+[2025-03-27 17:43:25] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-03-27 17:43:26] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 17:43:27] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-27 17:43:27] [INFO] ==> Access Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMDk3NDA3LCJleHAiOjE3NDMwOTc0Njd9.aMRcIN-xBmsob3d7ofPvVdARyDTt1LT3zYNNziiD0s4
+[2025-03-27 17:43:28] [INFO] ==> Refresh Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMDk3NDA3LCJleHAiOjE3NDMxODM4MDd9.JKujU4xpE2cQlkBmNOLspDOsdSov3yoiGQ3mpuy1Vb0
+[2025-03-27 17:43:48] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 17:43:48] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 17:44:34] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 17:44:34] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 17:44:38] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 17:44:38] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 17:44:40] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 17:44:40] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 17:44:53] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-27 17:44:53] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-27 17:44:57] [WARN] ==> Le token a expiré : JWT expired at 2025-03-27T17:44:27Z. Current time: 2025-03-27T17:44:57Z, a difference of 30619 milliseconds.  Allowed clock skew: 0 milliseconds.

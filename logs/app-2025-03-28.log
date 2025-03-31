@@ -1,0 +1,390 @@
+[2025-03-28 08:16:52] [INFO] ==> HikariPool-1 - Shutdown initiated...
+[2025-03-28 08:16:52] [INFO] ==> HikariPool-1 - Shutdown completed.
+[2025-03-28 08:26:02] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+[2025-03-28 08:26:02] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
+[2025-03-28 08:26:10] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
+[2025-03-28 08:26:10] [INFO] ==> Starting service [Tomcat]
+[2025-03-28 08:26:10] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
+[2025-03-28 08:26:10] [INFO] ==> Initializing Spring embedded WebApplicationContext
+[2025-03-28 08:26:13] [INFO] ==> HikariPool-1 - Starting...
+[2025-03-28 08:26:14] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@279e1422
+[2025-03-28 08:26:14] [INFO] ==> HikariPool-1 - Start completed.
+[2025-03-28 08:26:24] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
+[2025-03-28 08:26:24] [INFO] ==> Started SpringbootPostgreSqlApplication in 24.61 seconds (process running for 27.15)
+[2025-03-28 08:26:39] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-03-28 08:26:39] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 08:26:41] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 08:26:41] [INFO] ==> Access Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMTUwNDAxLCJleHAiOjE3NDMxNTA0NjF9.1x1HYM8dRAsKdukW6GvoBwjXGGQzEHVbZWC9LMqQxbs
+[2025-03-28 08:26:41] [INFO] ==> Refresh Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMTUwNDAxLCJleHAiOjE3NDMyMzY4MDF9.sGV7FmR5iFZL3pwGikmvtUbR6ChunSpdgdxsnqwuclE
+[2025-03-28 08:26:57] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 08:26:57] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 08:28:02] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T08:27:41Z. Current time: 2025-03-28T08:28:02Z, a difference of 21561 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 08:28:19] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 08:28:19] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 08:28:39] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T08:27:41Z. Current time: 2025-03-28T08:28:39Z, a difference of 58073 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 08:32:47] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 08:32:47] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 08:32:47] [INFO] ==> Access Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMTUwNzY3LCJleHAiOjE3NDMxNTA4Mjd9.REw6XjZkG9S29rh47WQBjnXV0sjAFQa7vGkTx1ll9PQ
+[2025-03-28 08:32:47] [INFO] ==> Refresh Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMTUwNzY3LCJleHAiOjE3NDMyMzcxNjd9.ngexLxm9WSo7VreGMAgp0K_Z3jGJ7hCyL6D3nieDPS8
+[2025-03-28 08:33:02] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 08:33:02] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 08:33:02] [INFO] ==> Access Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMTUwNzgyLCJleHAiOjE3NDMxNTA4NDJ9.HiQr8-8tgone4_WzMlJokYt3tAMoFIVRc67-ezfu3SU
+[2025-03-28 08:33:02] [INFO] ==> Refresh Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMTUwNzgyLCJleHAiOjE3NDMyMzcxODJ9.9WbH8n8lfA3Tog2jtfLMcm70MAcb9lZQwXs8x2-o_5A
+[2025-03-28 08:34:09] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 08:34:09] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 08:34:09] [INFO] ==> Access Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMTUwODQ5LCJleHAiOjE3NDMxNTA5MDl9.k-xpC-vOoJVyF69SBuPhkN9wN8t6TMdk6yyx9zl_PIs
+[2025-03-28 08:34:09] [INFO] ==> Refresh Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMTUwODQ5LCJleHAiOjE3NDMyMzcyNDl9.HR3oZeKxGofWVQkSU_U10Hkbzr0cniJs2ngFrJHQnEk
+[2025-03-28 08:40:50] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 08:40:50] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 08:40:50] [INFO] ==> Access Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMTUxMjUwLCJleHAiOjE3NDMxNTEzMTB9.Z0jJjbgwf77DKzqlmDVtiOXphPtdl-RsohQjjOMEplQ
+[2025-03-28 08:40:50] [INFO] ==> Refresh Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMTUxMjUwLCJleHAiOjE3NDMyMzc2NTB9.di8q1Y89sehoGaov7J-XxJmBSKA_9BqQP5BcGPL3jCs
+[2025-03-28 08:40:50] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 08:40:50] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 08:42:00] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T08:41:50Z. Current time: 2025-03-28T08:42:00Z, a difference of 10094 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 08:51:32] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T08:41:50Z. Current time: 2025-03-28T08:51:32Z, a difference of 582795 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 08:51:58] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T08:41:50Z. Current time: 2025-03-28T08:51:58Z, a difference of 608687 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 08:52:11] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T08:41:50Z. Current time: 2025-03-28T08:52:11Z, a difference of 621033 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 08:52:32] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T08:41:50Z. Current time: 2025-03-28T08:52:32Z, a difference of 642245 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 08:52:32] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 08:52:32] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 08:52:32] [INFO] ==> Access Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMTUxOTUyLCJleHAiOjE3NDMxNTIwMTJ9.g1rgRMcuhzic8Y_AoZ4oGrq_dXxR36ZFEPZ6RUwDWAU
+[2025-03-28 08:52:32] [INFO] ==> Refresh Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMTUxOTUyLCJleHAiOjE3NDMyMzgzNTJ9.CCRVdCZ8LjQRReI48b_kA6cG7HatID8OdWlN9bRABWE
+[2025-03-28 08:52:32] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 08:52:32] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 08:53:45] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T08:53:32Z. Current time: 2025-03-28T08:53:45Z, a difference of 13605 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 09:05:35] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T08:53:32Z. Current time: 2025-03-28T09:05:35Z, a difference of 723242 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 09:07:59] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T08:53:32Z. Current time: 2025-03-28T09:07:59Z, a difference of 867422 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 09:11:05] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T08:53:32Z. Current time: 2025-03-28T09:11:05Z, a difference of 1053230 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 09:11:32] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T08:53:32Z. Current time: 2025-03-28T09:11:32Z, a difference of 1080604 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 09:12:03] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T08:53:32Z. Current time: 2025-03-28T09:12:03Z, a difference of 1111398 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 09:12:03] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 09:12:03] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 09:12:03] [INFO] ==> Access Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMTUzMTIzLCJleHAiOjE3NDMxNTMxODN9.4SPitKvwr_lqE3LDkDL9fMdfcsKSwNiFx7KaW05Pyr8
+[2025-03-28 09:12:03] [INFO] ==> Refresh Token généré : eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJzYW1pci5zaXRhaGFyMDdAZ21haWwuY29tIiwiaWF0IjoxNzQzMTUzMTIzLCJleHAiOjE3NDMyMzk1MjN9.REp4jbhmo1NFarojWgXj9SDFuKkSye9QxX_9zd8EymA
+[2025-03-28 09:12:03] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 09:12:03] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 09:13:02] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 09:13:02] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 09:13:17] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T09:13:03Z. Current time: 2025-03-28T09:13:17Z, a difference of 14310 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 09:13:32] [INFO] ==> HikariPool-1 - Shutdown initiated...
+[2025-03-28 09:13:32] [INFO] ==> HikariPool-1 - Shutdown completed.
+[2025-03-28 09:17:51] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+[2025-03-28 09:17:51] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
+[2025-03-28 09:17:59] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
+[2025-03-28 09:17:59] [INFO] ==> Starting service [Tomcat]
+[2025-03-28 09:17:59] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
+[2025-03-28 09:17:59] [INFO] ==> Initializing Spring embedded WebApplicationContext
+[2025-03-28 09:18:03] [INFO] ==> HikariPool-1 - Starting...
+[2025-03-28 09:18:04] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@2cff03cf
+[2025-03-28 09:18:04] [INFO] ==> HikariPool-1 - Start completed.
+[2025-03-28 09:18:21] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
+[2025-03-28 09:18:21] [INFO] ==> Started SpringbootPostgreSqlApplication in 32.912 seconds (process running for 35.629)
+[2025-03-28 09:18:54] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-03-28 09:18:55] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T09:13:03Z. Current time: 2025-03-28T09:18:55Z, a difference of 352063 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 09:18:55] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 09:18:56] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 09:18:56] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 09:18:56] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 09:20:18] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T09:19:56Z. Current time: 2025-03-28T09:20:18Z, a difference of 22609 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 09:20:26] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T09:19:56Z. Current time: 2025-03-28T09:20:26Z, a difference of 30064 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 09:20:39] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T09:19:56Z. Current time: 2025-03-28T09:20:39Z, a difference of 43652 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 09:20:42] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T09:19:56Z. Current time: 2025-03-28T09:20:42Z, a difference of 46031 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 09:27:20] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 09:27:20] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 09:28:08] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 09:28:08] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 09:28:34] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T09:28:20Z. Current time: 2025-03-28T09:28:34Z, a difference of 14503 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 09:31:50] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 09:31:50] [WARN] ==> Échec du rafraîchissement du token : Refresh token manquant.
+[2025-03-28 09:35:20] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 09:35:20] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 09:36:03] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 09:36:03] [WARN] ==> Échec du rafraîchissement du token : Refresh token manquant.
+[2025-03-28 09:36:17] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 09:36:17] [WARN] ==> Échec du rafraîchissement du token : Refresh token manquant.
+[2025-03-28 09:36:37] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 09:36:37] [WARN] ==> Échec du rafraîchissement du token : Refresh token manquant.
+[2025-03-28 09:40:34] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 09:40:34] [WARN] ==> Échec du rafraîchissement du token : Refresh token manquant.
+[2025-03-28 09:41:08] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 09:41:08] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 09:41:25] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 09:41:25] [WARN] ==> Échec du rafraîchissement du token : Refresh token manquant.
+[2025-03-28 09:41:59] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 09:41:59] [WARN] ==> Échec du rafraîchissement du token : Refresh token manquant.
+[2025-03-28 09:42:14] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 09:42:14] [WARN] ==> Échec du rafraîchissement du token : Refresh token manquant.
+[2025-03-28 09:49:55] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 09:49:55] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 10:00:55] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T09:19:56Z. Current time: 2025-03-28T10:00:55Z, a difference of 2459037 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 10:01:22] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T09:19:56Z. Current time: 2025-03-28T10:01:22Z, a difference of 2486685 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 10:03:33] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T09:19:56Z. Current time: 2025-03-28T10:03:33Z, a difference of 2617154 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 10:08:06] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T09:19:56Z. Current time: 2025-03-28T10:08:06Z, a difference of 2890924 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 10:08:17] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T09:19:56Z. Current time: 2025-03-28T10:08:17Z, a difference of 2901864 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 10:09:18] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T09:19:56Z. Current time: 2025-03-28T10:09:18Z, a difference of 2962107 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 10:09:18] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 10:09:18] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 10:09:18] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 10:09:18] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 10:10:18] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T10:10:18Z. Current time: 2025-03-28T10:10:18Z, a difference of 667 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 10:10:34] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T10:10:18Z. Current time: 2025-03-28T10:10:34Z, a difference of 16302 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 10:10:36] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T10:10:18Z. Current time: 2025-03-28T10:10:36Z, a difference of 18078 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 10:10:36] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T10:10:18Z. Current time: 2025-03-28T10:10:36Z, a difference of 18944 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 10:39:33] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T10:10:18Z. Current time: 2025-03-28T10:39:33Z, a difference of 1755380 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 10:54:14] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 10:54:15] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 10:54:15] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 10:54:15] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 10:54:28] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 10:54:28] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 10:54:30] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 10:54:30] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 10:54:44] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 10:54:45] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 10:54:45] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 10:54:45] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 10:55:56] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T10:55:45Z. Current time: 2025-03-28T10:55:56Z, a difference of 11967 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 10:55:59] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T10:55:45Z. Current time: 2025-03-28T10:55:59Z, a difference of 14880 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 11:05:29] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 11:05:30] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 11:05:33] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 11:05:33] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 11:06:31] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T11:06:30Z. Current time: 2025-03-28T11:06:31Z, a difference of 1821 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 11:09:47] [WARN] ==> HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m9s47ms335µs60ns).
+[2025-03-28 12:30:09] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T11:06:30Z. Current time: 2025-03-28T12:30:09Z, a difference of 5019677 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 12:30:35] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:30:37] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:30:37] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 12:30:40] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 12:31:57] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T12:31:37Z. Current time: 2025-03-28T12:31:57Z, a difference of 20934 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 12:33:11] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T12:31:37Z. Current time: 2025-03-28T12:33:11Z, a difference of 94466 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 12:33:11] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:33:11] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:33:12] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 12:33:12] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 12:34:19] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T12:34:11Z. Current time: 2025-03-28T12:34:19Z, a difference of 8732 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 12:38:46] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T12:34:11Z. Current time: 2025-03-28T12:38:46Z, a difference of 275062 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 12:39:06] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:39:07] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:39:07] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 12:39:07] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 12:39:46] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 12:39:46] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 12:40:01] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 12:40:01] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 12:40:16] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T12:40:07Z. Current time: 2025-03-28T12:40:16Z, a difference of 9007 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 12:44:26] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T12:40:07Z. Current time: 2025-03-28T12:44:26Z, a difference of 259323 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 12:44:59] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:45:00] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:45:00] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 12:45:00] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 12:46:00] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T12:46:00Z. Current time: 2025-03-28T12:46:00Z, a difference of 760 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 12:47:29] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T12:46:00Z. Current time: 2025-03-28T12:47:29Z, a difference of 89496 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 12:47:29] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T12:46:00Z. Current time: 2025-03-28T12:47:29Z, a difference of 89784 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 12:47:29] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 12:47:29] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:48:06] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:48:07] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:48:07] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 12:48:07] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 12:49:20] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T12:49:07Z. Current time: 2025-03-28T12:49:20Z, a difference of 13277 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 12:49:20] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T12:49:07Z. Current time: 2025-03-28T12:49:20Z, a difference of 13395 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 12:49:20] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 12:49:20] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:51:34] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:51:35] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:51:35] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 12:51:36] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 12:53:05] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T12:52:35Z. Current time: 2025-03-28T12:53:05Z, a difference of 30559 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 12:53:05] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T12:52:35Z. Current time: 2025-03-28T12:53:05Z, a difference of 30627 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 12:53:05] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 12:53:05] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:59:12] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:59:12] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 12:59:13] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 12:59:13] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:00:00] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:00:00] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:00:11] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:00:11] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:00:19] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T13:00:12Z. Current time: 2025-03-28T13:00:19Z, a difference of 7158 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 13:00:20] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T13:00:12Z. Current time: 2025-03-28T13:00:20Z, a difference of 8028 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 13:00:20] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 13:00:20] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:01:22] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:01:25] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:01:26] [WARN] ==> Échec de la connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com. Motif : Email ou mot de passe incorrect.
+[2025-03-28 13:01:26] [WARN] ==> Échec de la connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com. Motif : Email ou mot de passe incorrect.
+[2025-03-28 13:01:36] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:01:38] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:01:38] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:01:39] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:03:04] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T13:02:37Z. Current time: 2025-03-28T13:03:04Z, a difference of 27544 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 13:03:04] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T13:02:37Z. Current time: 2025-03-28T13:03:04Z, a difference of 27812 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 13:03:04] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 13:03:04] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:05:56] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:05:56] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:05:56] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:05:56] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:06:59] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T13:06:56Z. Current time: 2025-03-28T13:06:59Z, a difference of 3152 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 13:06:59] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T13:06:56Z. Current time: 2025-03-28T13:06:59Z, a difference of 3203 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 13:06:59] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 13:06:59] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:14:45] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:14:45] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:14:45] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:14:45] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:15:23] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:15:23] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:15:53] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T13:15:45Z. Current time: 2025-03-28T13:15:53Z, a difference of 8181 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 13:15:53] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T13:15:45Z. Current time: 2025-03-28T13:15:53Z, a difference of 8259 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 13:15:53] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 13:15:53] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:15:53] [WARN] ==> Token mal formé : JWT strings must contain exactly 2 period characters. Found: 0
+[2025-03-28 13:22:06] [INFO] ==> HikariPool-1 - Shutdown initiated...
+[2025-03-28 13:22:07] [INFO] ==> HikariPool-1 - Shutdown completed.
+[2025-03-28 13:27:02] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+[2025-03-28 13:27:03] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
+[2025-03-28 13:27:11] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
+[2025-03-28 13:27:11] [INFO] ==> Starting service [Tomcat]
+[2025-03-28 13:27:11] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
+[2025-03-28 13:27:12] [INFO] ==> Initializing Spring embedded WebApplicationContext
+[2025-03-28 13:27:15] [INFO] ==> HikariPool-1 - Starting...
+[2025-03-28 13:27:17] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1cab19e2
+[2025-03-28 13:27:17] [INFO] ==> HikariPool-1 - Start completed.
+[2025-03-28 13:27:30] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
+[2025-03-28 13:27:31] [INFO] ==> Started SpringbootPostgreSqlApplication in 31.879 seconds (process running for 42.025)
+[2025-03-28 13:27:46] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-03-28 13:27:47] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:27:48] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:27:49] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:27:49] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:28:44] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:28:44] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:28:52] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T13:28:48Z. Current time: 2025-03-28T13:28:52Z, a difference of 4121 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 13:28:52] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T13:28:48Z. Current time: 2025-03-28T13:28:52Z, a difference of 4442 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 13:28:52] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 13:28:52] [WARN] ==> Échec du rafraîchissement du token : Refresh token manquant.
+[2025-03-28 13:29:48] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:29:49] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:30:07] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 13:30:07] [WARN] ==> Échec du rafraîchissement du token : Refresh token manquant.
+[2025-03-28 13:30:16] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 13:30:16] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:34:30] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:34:30] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:34:30] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:34:30] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:35:46] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T13:35:30Z. Current time: 2025-03-28T13:35:46Z, a difference of 16349 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 13:35:46] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T13:35:30Z. Current time: 2025-03-28T13:35:46Z, a difference of 16410 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-03-28 13:35:46] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-03-28 13:35:46] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 13:35:46] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:35:46] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:36:06] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:36:06] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:37:17] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:37:17] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:37:39] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:37:39] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:37:55] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:37:55] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:38:10] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:38:10] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:38:11] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:38:11] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:38:21] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:38:21] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:38:23] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:38:23] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:38:25] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:38:25] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:38:40] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:38:40] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:38:43] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:38:43] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:38:44] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:38:44] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:38:48] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:38:48] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:39:19] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:39:19] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:39:28] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:39:28] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:40:53] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:40:53] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 13:57:18] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 13:57:18] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 14:05:30] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 14:05:30] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 14:34:14] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 14:34:14] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 14:34:16] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 14:34:16] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 14:50:36] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 14:50:36] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 14:51:06] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=NJE145, lastname=null, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2000-07-30, firstDepartureMissionAt=2024-05-30, createdAt=null)
+[2025-03-28 14:51:06] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=NJE145, lastname=null, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2000-07-30, firstDepartureMissionAt=2024-05-30, createdAt=null)
+[2025-03-28 14:51:07] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=NJE145, lastname=null, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2000-07-30, firstDepartureMissionAt=2024-05-30, createdAt=null)
+[2025-03-28 14:51:07] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=NJE145, lastname=null, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2000-07-30, firstDepartureMissionAt=2024-05-30, createdAt=null)
+[2025-03-28 14:51:07] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=NJE145, lastname=null, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2000-07-30, firstDepartureMissionAt=2024-05-30, createdAt=null)
+[2025-03-28 14:51:07] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=NJE145, lastname=null, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2000-07-30, firstDepartureMissionAt=2024-05-30, createdAt=null)
+[2025-03-28 14:51:10] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: null value in column "created_at" of relation "vde_students" violates not-null constraint
+  Detail: Failing row contains (NJE145, null, samir.sitahar07@gmail.com, 2000-07-30, 2024-05-30, SAMIR, null, 0758804579, NT).] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [created_at" of relation "vde_students]
+[2025-03-28 14:51:10] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: null value in column "created_at" of relation "vde_students" violates not-null constraint
+  Detail: Failing row contains (NJE145, null, samir.sitahar07@gmail.com, 2000-07-30, 2024-05-30, SAMIR, null, 0758804579, NT).] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [created_at" of relation "vde_students]
+[2025-03-28 14:51:10] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: null value in column "created_at" of relation "vde_students" violates not-null constraint
+  Detail: Failing row contains (NJE145, null, samir.sitahar07@gmail.com, 2000-07-30, 2024-05-30, SAMIR, null, 0758804579, NT).] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [created_at" of relation "vde_students]
+[2025-03-28 14:51:10] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: null value in column "created_at" of relation "vde_students" violates not-null constraint
+  Detail: Failing row contains (NJE145, null, samir.sitahar07@gmail.com, 2000-07-30, 2024-05-30, SAMIR, null, 0758804579, NT).] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [created_at" of relation "vde_students]
+[2025-03-28 14:51:10] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: null value in column "created_at" of relation "vde_students" violates not-null constraint
+  Detail: Failing row contains (NJE145, null, samir.sitahar07@gmail.com, 2000-07-30, 2024-05-30, SAMIR, null, 0758804579, NT).] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [created_at" of relation "vde_students]
+[2025-03-28 14:51:10] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: null value in column "created_at" of relation "vde_students" violates not-null constraint
+  Detail: Failing row contains (NJE145, null, samir.sitahar07@gmail.com, 2000-07-30, 2024-05-30, SAMIR, null, 0758804579, NT).] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [created_at" of relation "vde_students]
+[2025-03-28 14:51:10] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=NJE145, lastname=null, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2000-07-30, firstDepartureMissionAt=2024-05-30, createdAt=null)
+[2025-03-28 14:51:10] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=NJE145, lastname=null, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2000-07-30, firstDepartureMissionAt=2024-05-30, createdAt=null)
+[2025-03-28 14:51:10] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=NJE145, lastname=null, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2000-07-30, firstDepartureMissionAt=2024-05-30, createdAt=null)
+[2025-03-28 14:51:10] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: null value in column "created_at" of relation "vde_students" violates not-null constraint
+  Detail: Failing row contains (NJE145, null, samir.sitahar07@gmail.com, 2000-07-30, 2024-05-30, SAMIR, null, 0758804579, NT).] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [created_at" of relation "vde_students]
+[2025-03-28 14:51:10] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: null value in column "created_at" of relation "vde_students" violates not-null constraint
+  Detail: Failing row contains (NJE145, null, samir.sitahar07@gmail.com, 2000-07-30, 2024-05-30, SAMIR, null, 0758804579, NT).] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [created_at" of relation "vde_students]
+[2025-03-28 14:51:10] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: null value in column "created_at" of relation "vde_students" violates not-null constraint
+  Detail: Failing row contains (NJE145, null, samir.sitahar07@gmail.com, 2000-07-30, 2024-05-30, SAMIR, null, 0758804579, NT).] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [created_at" of relation "vde_students]
+[2025-03-28 14:59:23] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 14:59:23] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 14:59:54] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=NJE145, lastname=null, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-02-25, firstDepartureMissionAt=2025-06-30, createdAt=null)
+[2025-03-28 14:59:54] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: null value in column "created_at" of relation "vde_students" violates not-null constraint
+  Detail: Failing row contains (NJE145, null, samir.sitahar07@gmail.com, 2025-02-25, 2025-06-30, SAMIR, null, 0758804579, NT).] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [created_at" of relation "vde_students]
+[2025-03-28 15:01:35] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 15:01:35] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 15:01:54] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=NJE145, lastname=null, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-02-25, firstDepartureMissionAt=2026-06-30, createdAt=2025-03-28T15:01:40.058)
+[2025-03-28 15:01:54] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: null value in column "lastname" of relation "vde_students" violates not-null constraint
+  Detail: Failing row contains (NJE145, 2025-03-28 15:01:40.058, samir.sitahar07@gmail.com, 2025-02-25, 2026-06-30, SAMIR, null, 0758804579, NT).] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [lastname" of relation "vde_students]
+[2025-03-28 16:13:16] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 16:13:17] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-03-28 16:13:46] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 16:13:46] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 16:19:06] [INFO] ==> HikariPool-1 - Shutdown initiated...
+[2025-03-28 16:19:07] [INFO] ==> HikariPool-1 - Shutdown completed.
+[2025-03-28 16:24:18] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+[2025-03-28 16:24:18] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
+[2025-03-28 16:24:27] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
+[2025-03-28 16:24:27] [INFO] ==> Starting service [Tomcat]
+[2025-03-28 16:24:27] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
+[2025-03-28 16:24:27] [INFO] ==> Initializing Spring embedded WebApplicationContext
+[2025-03-28 16:24:29] [INFO] ==> HikariPool-1 - Starting...
+[2025-03-28 16:24:31] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ae2c01b
+[2025-03-28 16:24:31] [INFO] ==> HikariPool-1 - Start completed.
+[2025-03-28 16:24:45] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
+[2025-03-28 16:24:45] [INFO] ==> Started SpringbootPostgreSqlApplication in 30.163 seconds (process running for 38.966)
+[2025-03-28 16:24:59] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-03-28 16:25:00] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 16:25:00] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 16:25:08] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 16:25:08] [INFO] ==> Nombre total d'étudiants trouvés : 1
+[2025-03-28 16:26:03] [ERROR] ==> [ERROR] ==> JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "20225-04-30": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '20225-04-30' could not be parsed at index 0
+[2025-03-28 16:32:23] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
+[2025-03-28 16:32:23] [INFO] ==> Étudiant enregistré avec succès : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
+[2025-03-28 16:32:35] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-03-28 16:32:35] [INFO] ==> Nombre total d'étudiants trouvés : 2

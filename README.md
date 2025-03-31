@@ -68,3 +68,5 @@ springboot-postgresql/
 - Arréter avec docker : **docker-compose down**
 
 - Ou pour arrêter uniquement l'application sans stopper PostgreSQL : **docker stop vde_springboot**
+
+- Pour voir les loggs : **docker logs vde_springboot**

@@ -3,6 +3,8 @@ package com.springbootTP.springbootPostgreSQL.backend.service;
 import com.springbootTP.springbootPostgreSQL.backend.model.Students;
 import com.springbootTP.springbootPostgreSQL.backend.repository.StudentsRepository;
 import jakarta.transaction.Transactional;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,9 +17,8 @@ import java.util.Optional;
 @Service
 public class StudentsServiceImp implements IStudentsService {
 
-    // Injection du repository des étudiants pour interagir avec la base de données
-
-    private StudentsRepository studentsRepository;
+    private static final Logger logger = LoggerFactory.getLogger(StudentsServiceImp.class);
+    private final StudentsRepository studentsRepository;
 
     @Autowired
     public StudentsServiceImp(StudentsRepository studentsRepository) {
@@ -31,7 +32,10 @@ public class StudentsServiceImp implements IStudentsService {
      */
     @Override
     public Students saveStudents(Students student) {
-        return studentsRepository.save(student);
+        logger.info("Tentative d'enregistrement d'un nouvel étudiant : {}", student);
+        Students savedStudent = studentsRepository.save(student);
+        logger.info("Étudiant enregistré avec succès : {}", savedStudent);
+        return savedStudent;
     }
 
     /**
@@ -40,7 +44,10 @@ public class StudentsServiceImp implements IStudentsService {
      */
     @Override
     public List<Students> getAllStudents() {
-        return studentsRepository.findAll();
+        logger.info("Récupération de la liste de tous les étudiants...");
+        List<Students> students = studentsRepository.findAll();
+        logger.info("Nombre total d'étudiants trouvés : {}", students.size());
+        return students;
     }
 
     /**
@@ -50,7 +57,14 @@ public class StudentsServiceImp implements IStudentsService {
      */
     @Override
     public Optional<Students> getStudentsByCode(String code) {
-        return studentsRepository.findById(code);
+        logger.debug("Recherche de l'étudiant avec le code : {}", code);
+        Optional<Students> student = studentsRepository.findById(code);
+        if (student.isPresent()) {
+            logger.info("Étudiant trouvé : {}", student.get());
+        } else {
+            logger.warn("Aucun étudiant trouvé avec le code : {}", code);
+        }
+        return student;
     }
 
     /**
@@ -60,25 +74,32 @@ public class StudentsServiceImp implements IStudentsService {
      */
     @Override
     public Optional<Students> getStudentsByEmail(String email) {
-        return studentsRepository.findByEmail(email);
+        logger.debug("Recherche de l'étudiant avec l'email : {}", email);
+        Optional<Students> student = studentsRepository.findByEmail(email);
+        if (student.isPresent()) {
+            logger.info("Étudiant trouvé : {}", student.get());
+        } else {
+            logger.warn("Aucun étudiant trouvé avec l'email : {}", email);
+        }
+        return student;
     }
 
     /**
      * Met à jour les informations d'un étudiant existant.
      * @param student L'objet contenant les nouvelles informations.
-     * @param code Le code de l'étudiant (peut être null si email est utilisé).
+     * @param code Le code de l'étudiant.
      * @return L'objet étudiant mis à jour.
-     * @throws RuntimeException si l'étudiant n'est pas trouvé.
      */
     @Override
     public Students updateStudents(Students student, String code) {
-        // Rechercher l'étudiant par code
+        logger.info("Mise à jour des informations de l'étudiant avec le code : {}", code);
         Students existingStudent = studentsRepository.findById(code)
-                .orElseThrow(() -> new RuntimeException("Student does not exist"));
+                .orElseThrow(() -> {
+                    logger.error("Échec de la mise à jour : aucun étudiant trouvé avec le code {}", code);
+                    return new RuntimeException("Student does not exist");
+                });
 
-        // Mise à jour des informations de l'étudiant
-        existingStudent.setCode(student.getCode());
-        existingStudent.setName(student.getName());
+        existingStudent.setLastName(student.getLastName());
         existingStudent.setFirstName(student.getFirstName());
         existingStudent.setEmail(student.getEmail());
         existingStudent.setPhone(student.getPhone());
@@ -86,10 +107,10 @@ public class StudentsServiceImp implements IStudentsService {
         existingStudent.setEntryAt(student.getEntryAt());
         existingStudent.setFirstDepartureMissionAt(student.getFirstDepartureMissionAt());
 
-        // Sauvegarde des modifications dans la base de données
-        return studentsRepository.save(existingStudent);
+        Students updatedStudent = studentsRepository.save(existingStudent);
+        logger.info("Étudiant mis à jour avec succès : {}", updatedStudent);
+        return updatedStudent;
     }
-
 
     /**
      * Supprime un étudiant de la base de données en fonction de son code.
@@ -97,7 +118,9 @@ public class StudentsServiceImp implements IStudentsService {
      */
     @Override
     public void deleteStudentsByCode(String code) {
+        logger.warn("Suppression de l'étudiant avec le code : {}", code);
         studentsRepository.deleteById(code);
+        logger.info("Étudiant supprimé avec succès.");
     }
 
     /**
@@ -105,7 +128,10 @@ public class StudentsServiceImp implements IStudentsService {
      */
     @Override
     @Transactional
-    public void deleteStudentsByEmail(String students) {
-        studentsRepository.deleteByEmail(students);
+    public void deleteStudentsByEmail(String email) {
+        logger.warn("Suppression de l'étudiant avec l'email : {}", email);
+        studentsRepository.deleteByEmail(email);
+        logger.info("Étudiant supprimé avec succès.");
     }
 }
+

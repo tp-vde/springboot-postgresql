@@ -19,10 +19,13 @@ public class Students {
 
     @Id
     @Column(name = "code", nullable = false, unique = true, length = 100)
+
     private String code;
 
-    @Column(name = "name", nullable = false, length = 100)
-    private String name;
+
+    @Column(name = "lastname", nullable = false, length = 100)
+
+    private String lastName;
 
     @Column(name = "first_name", nullable = false, length = 100)
     private String firstName;
@@ -39,7 +42,7 @@ public class Students {
     @Column(name = "entry_at", nullable = false)
     private LocalDate entryAt;
 
-    @Column(name = "first_departure_mission_at")
+    @Column(name = "first_departure_mission_at" , nullable = true )
     private LocalDate firstDepartureMissionAt;
 
     @Column(name = "created_at", nullable = false, updatable = false)
