@@ -1,434 +1,66 @@
-[2025-03-31 08:45:26] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
-[2025-03-31 08:45:27] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
-[2025-03-31 08:46:29] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
-[2025-03-31 08:46:29] [INFO] ==> Starting service [Tomcat]
-[2025-03-31 08:46:29] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
-[2025-03-31 08:46:30] [INFO] ==> Initializing Spring embedded WebApplicationContext
-[2025-03-31 08:46:54] [INFO] ==> HikariPool-1 - Starting...
-[2025-03-31 08:47:15] [INFO] ==> HikariPool-1 - Starting...
-[2025-03-31 08:47:16] [INFO] ==> Stopping service [Tomcat]
-[2025-03-31 08:47:33] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
-[2025-03-31 08:47:33] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
-[2025-03-31 08:47:38] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
-[2025-03-31 08:47:38] [INFO] ==> Starting service [Tomcat]
-[2025-03-31 08:47:38] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
-[2025-03-31 08:47:38] [INFO] ==> Initializing Spring embedded WebApplicationContext
-[2025-03-31 08:47:40] [INFO] ==> HikariPool-1 - Starting...
-[2025-03-31 08:47:42] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@77e730bd
-[2025-03-31 08:47:42] [INFO] ==> HikariPool-1 - Start completed.
-[2025-03-31 08:47:56] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
-[2025-03-31 08:47:56] [INFO] ==> Started SpringbootPostgreSqlApplication in 25.584 seconds (process running for 27.535)
-[2025-03-31 08:56:07] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2025-03-31 08:56:08] [WARN] ==> Le token a expiré : JWT expired at 2025-03-29T13:34:30Z. Current time: 2025-03-31T08:56:08Z, a difference of 156098030 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-03-31 08:56:08] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 08:56:09] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 08:56:09] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 08:56:09] [INFO] ==> Nombre total d'étudiants trouvés : 2
-[2025-03-31 08:57:31] [WARN] ==> Le token a expiré : JWT expired at 2025-03-31T08:57:09Z. Current time: 2025-03-31T08:57:31Z, a difference of 22342 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-03-31 08:57:31] [WARN] ==> Le token a expiré : JWT expired at 2025-03-31T08:57:09Z. Current time: 2025-03-31T08:57:31Z, a difference of 22404 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-03-31 08:57:31] [INFO] ==> Tentative de rafraîchissement du token.
-[2025-03-31 08:57:31] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 08:57:31] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=TER15, lastName=yassine, firstName=yassine, email=yassinmarroco@gmail.com, phone=07457801213, speciality=NT, entryAt=2025-05-04, firstDepartureMissionAt=2026-02-20, createdAt=2025-03-31T08:56:30.020)
-[2025-03-31 08:57:31] [INFO] ==> Étudiant enregistré avec succès : Students(code=TER15, lastName=yassine, firstName=yassine, email=yassinmarroco@gmail.com, phone=07457801213, speciality=NT, entryAt=2025-05-04, firstDepartureMissionAt=2026-02-20, createdAt=2025-03-31T08:56:30.020)
-[2025-03-31 08:57:33] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 08:57:33] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 09:23:51] [INFO] ==> HikariPool-1 - Shutdown initiated...
-[2025-03-31 09:23:51] [INFO] ==> HikariPool-1 - Shutdown completed.
-[2025-03-31 09:38:18] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
-[2025-03-31 09:38:18] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
-[2025-03-31 09:38:29] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
-[2025-03-31 09:38:29] [INFO] ==> Starting service [Tomcat]
-[2025-03-31 09:38:29] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
-[2025-03-31 09:38:29] [INFO] ==> Initializing Spring embedded WebApplicationContext
-[2025-03-31 09:38:32] [INFO] ==> HikariPool-1 - Starting...
-[2025-03-31 09:38:36] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@196d684b
-[2025-03-31 09:38:36] [INFO] ==> HikariPool-1 - Start completed.
-[2025-03-31 09:38:50] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
-[2025-03-31 09:38:50] [INFO] ==> Started SpringbootPostgreSqlApplication in 37.564 seconds (process running for 52.795)
-[2025-03-31 09:38:58] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2025-03-31 09:39:00] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 09:39:00] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 09:39:17] [ERROR] ==> [ERROR] ==> Required request parameter 'code' for method parameter type String is not present
-[2025-03-31 09:39:26] [ERROR] ==> [ERROR] ==> Required request parameter 'code' for method parameter type String is not present
-[2025-03-31 09:39:27] [ERROR] ==> [ERROR] ==> Required request parameter 'code' for method parameter type String is not present
-[2025-03-31 09:39:27] [ERROR] ==> [ERROR] ==> Required request parameter 'code' for method parameter type String is not present
-[2025-03-31 09:39:52] [ERROR] ==> [ERROR] ==> Required request parameter 'code' for method parameter type String is not present
-[2025-03-31 09:46:23] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 09:46:23] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 09:46:58] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 09:50:34] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 09:50:34] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 09:50:49] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 09:51:00] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 09:51:00] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 09:51:20] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 09:51:56] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 09:51:56] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 10:05:19] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 10:05:19] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 10:05:34] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 10:07:38] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 10:07:38] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 10:10:26] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 10:10:26] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 10:10:40] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 10:22:20] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 10:22:20] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 10:22:32] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 10:22:32] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 10:22:49] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 10:31:38] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 10:31:38] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 10:31:38] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 10:31:38] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 10:32:53] [WARN] ==> Le token a expiré : JWT expired at 2025-03-31T10:32:38Z. Current time: 2025-03-31T10:32:53Z, a difference of 15235 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-03-31 10:32:53] [WARN] ==> Le token a expiré : JWT expired at 2025-03-31T10:32:38Z. Current time: 2025-03-31T10:32:53Z, a difference of 15294 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-03-31 10:32:53] [INFO] ==> Tentative de rafraîchissement du token.
-[2025-03-31 10:32:53] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 10:32:53] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=SA15, lastName=mourad, firstName=morad, email=mourad@gmail.com, phone=0654852145, speciality=BI, entryAt=2024-08-25, firstDepartureMissionAt=2026-03-22, createdAt=2025-03-31T10:31:42.968)
-[2025-03-31 10:32:53] [INFO] ==> Étudiant enregistré avec succès : Students(code=SA15, lastName=mourad, firstName=morad, email=mourad@gmail.com, phone=0654852145, speciality=BI, entryAt=2024-08-25, firstDepartureMissionAt=2026-03-22, createdAt=2025-03-31T10:31:42.968)
-[2025-03-31 10:33:44] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 10:33:44] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 10:41:07] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 10:41:07] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 10:49:26] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 10:49:27] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 10:49:27] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 10:49:27] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 10:49:37] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 10:50:00] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 10:50:00] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 10:50:18] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 10:52:36] [WARN] ==> Le token a expiré : JWT expired at 2025-03-31T10:50:27Z. Current time: 2025-03-31T10:52:36Z, a difference of 129524 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-03-31 10:52:36] [WARN] ==> Le token a expiré : JWT expired at 2025-03-31T10:50:27Z. Current time: 2025-03-31T10:52:36Z, a difference of 129567 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-03-31 10:52:36] [INFO] ==> Tentative de rafraîchissement du token.
-[2025-03-31 10:52:36] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 10:52:36] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 10:52:36] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 10:52:46] [WARN] ==> Aucun étudiant trouvé avec le code : NJE
-[2025-03-31 10:52:47] [WARN] ==> Aucun étudiant trouvé avec le code : NJE
-[2025-03-31 10:52:47] [WARN] ==> Aucun étudiant trouvé avec le code : NJE
-[2025-03-31 10:52:47] [WARN] ==> Aucun étudiant trouvé avec le code : NJE
-[2025-03-31 10:52:48] [WARN] ==> Aucun étudiant trouvé avec le code : NJE
-[2025-03-31 10:52:48] [WARN] ==> Aucun étudiant trouvé avec le code : NJE
-[2025-03-31 10:52:48] [WARN] ==> Aucun étudiant trouvé avec le code : NJE
-[2025-03-31 10:52:50] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 10:52:51] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 10:52:51] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 10:55:49] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 10:59:09] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 10:59:09] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 10:59:22] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 10:59:25] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 10:59:39] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 11:00:52] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 11:00:52] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 11:01:47] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 11:01:47] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 11:04:42] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 11:04:42] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 11:05:13] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 11:05:13] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 11:05:40] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 11:16:21] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 11:16:21] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 11:16:34] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 11:21:34] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 11:21:34] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 11:21:51] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 11:22:33] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 11:22:33] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 11:22:53] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 11:24:05] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 11:24:05] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 11:24:27] [WARN] ==> Aucun étudiant trouvé avec le code : samir.sitahar07@gmail.com
-[2025-03-31 11:25:32] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 11:25:32] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 11:25:44] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 11:25:59] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 11:25:59] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 11:27:33] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 11:30:12] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 11:30:12] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 11:30:25] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 11:31:06] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 11:31:06] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 11:31:17] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 11:39:32] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 11:39:32] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 11:39:40] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 11:39:40] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 11:39:47] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 11:39:55] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 11:40:39] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 11:40:40] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 11:40:40] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 11:40:40] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 11:41:06] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 11:44:54] [WARN] ==> Le token a expiré : JWT expired at 2025-03-31T11:41:40Z. Current time: 2025-03-31T11:44:54Z, a difference of 194374 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-03-31 11:44:54] [WARN] ==> Le token a expiré : JWT expired at 2025-03-31T11:41:40Z. Current time: 2025-03-31T11:44:54Z, a difference of 194575 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-03-31 11:44:54] [INFO] ==> Tentative de rafraîchissement du token.
-[2025-03-31 11:44:54] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 11:44:54] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 11:44:54] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 12:15:06] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 12:15:06] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 12:19:34] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 12:19:35] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 12:19:37] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 12:19:37] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 12:39:20] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 12:39:20] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 12:39:34] [WARN] ==> Aucun étudiant trouvé avec le code : N
-[2025-03-31 12:39:34] [WARN] ==> Aucun étudiant trouvé avec le code : Nj
-[2025-03-31 12:39:37] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 12:42:56] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 12:42:57] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 12:43:09] [WARN] ==> Aucun étudiant trouvé avec l'email : s
-[2025-03-31 12:43:11] [WARN] ==> Aucun étudiant trouvé avec l'email : sa
-[2025-03-31 12:43:14] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 12:49:19] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 12:49:19] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 12:49:37] [WARN] ==> Aucun étudiant trouvé avec le code : N
-[2025-03-31 12:49:38] [WARN] ==> Aucun étudiant trouvé avec le code : NJ
-[2025-03-31 12:49:39] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 12:52:01] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 12:52:01] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 12:52:13] [WARN] ==> Aucun étudiant trouvé avec le code : N
-[2025-03-31 12:52:14] [WARN] ==> Aucun étudiant trouvé avec le code : NJ
-[2025-03-31 12:52:14] [WARN] ==> Aucun étudiant trouvé avec le code : NJE
-[2025-03-31 12:52:17] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 12:54:26] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 12:54:27] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 12:54:31] [WARN] ==> Aucun étudiant trouvé avec le code : n
-[2025-03-31 12:54:31] [WARN] ==> Aucun étudiant trouvé avec le code : nj
-[2025-03-31 12:54:31] [WARN] ==> Aucun étudiant trouvé avec le code : nje
-[2025-03-31 12:54:32] [WARN] ==> Aucun étudiant trouvé avec le code : nje1
-[2025-03-31 12:54:32] [WARN] ==> Aucun étudiant trouvé avec le code : nje14
-[2025-03-31 12:54:33] [WARN] ==> Aucun étudiant trouvé avec le code : nje145
-[2025-03-31 12:54:34] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 13:00:03] [INFO] ==> HikariPool-1 - Shutdown initiated...
-[2025-03-31 13:00:03] [INFO] ==> HikariPool-1 - Shutdown completed.
-[2025-03-31 13:05:04] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
-[2025-03-31 13:05:04] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
-[2025-03-31 13:05:12] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
-[2025-03-31 13:05:12] [INFO] ==> Starting service [Tomcat]
-[2025-03-31 13:05:12] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
-[2025-03-31 13:05:13] [INFO] ==> Initializing Spring embedded WebApplicationContext
-[2025-03-31 13:05:16] [INFO] ==> HikariPool-1 - Starting...
-[2025-03-31 13:05:17] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3245efdb
-[2025-03-31 13:05:17] [INFO] ==> HikariPool-1 - Start completed.
-[2025-03-31 13:05:27] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
-[2025-03-31 13:05:27] [INFO] ==> Started SpringbootPostgreSqlApplication in 27.655 seconds (process running for 29.444)
-[2025-03-31 13:09:54] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2025-03-31 13:09:56] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:09:56] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 13:10:02] [WARN] ==> Aucun étudiant trouvé avec le code : N
-[2025-03-31 13:10:02] [WARN] ==> Aucun étudiant trouvé avec le code : NJ
-[2025-03-31 13:10:02] [WARN] ==> Aucun étudiant trouvé avec le code : NJE
-[2025-03-31 13:10:03] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 13:17:47] [WARN] ==> Aucun étudiant trouvé avec le code : NJE14
-[2025-03-31 13:17:48] [WARN] ==> Aucun étudiant trouvé avec le code : NJE1
-[2025-03-31 13:17:48] [WARN] ==> Aucun étudiant trouvé avec le code : NJE
-[2025-03-31 13:17:48] [WARN] ==> Aucun étudiant trouvé avec le code : NJ
-[2025-03-31 13:17:48] [WARN] ==> Aucun étudiant trouvé avec le code : N
-[2025-03-31 13:17:51] [WARN] ==> Aucun étudiant trouvé avec le code : N
-[2025-03-31 13:17:51] [WARN] ==> Aucun étudiant trouvé avec le code : NJ
-[2025-03-31 13:17:51] [WARN] ==> Aucun étudiant trouvé avec le code : NJE
-[2025-03-31 13:17:52] [WARN] ==> Aucun étudiant trouvé avec le code : NJE1
-[2025-03-31 13:17:52] [WARN] ==> Aucun étudiant trouvé avec le code : NJE14
-[2025-03-31 13:17:53] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 13:17:57] [WARN] ==> Aucun étudiant trouvé avec le code : NJE14
-[2025-03-31 13:17:58] [WARN] ==> Aucun étudiant trouvé avec le code : NJE1
-[2025-03-31 13:17:58] [WARN] ==> Aucun étudiant trouvé avec le code : NJE
-[2025-03-31 13:17:58] [WARN] ==> Aucun étudiant trouvé avec le code : N
-[2025-03-31 13:17:58] [WARN] ==> Aucun étudiant trouvé avec le code : NJ
-[2025-03-31 13:17:59] [WARN] ==> Aucun étudiant trouvé avec le code : S
-[2025-03-31 13:18:00] [WARN] ==> Aucun étudiant trouvé avec le code : Su
-[2025-03-31 13:18:00] [WARN] ==> Aucun étudiant trouvé avec le code : Su_
-[2025-03-31 13:18:01] [WARN] ==> Aucun étudiant trouvé avec le code : Su
-[2025-03-31 13:18:01] [WARN] ==> Aucun étudiant trouvé avec le code : S
-[2025-03-31 13:18:02] [WARN] ==> Aucun étudiant trouvé avec le code : s
-[2025-03-31 13:18:02] [WARN] ==> Aucun étudiant trouvé avec le code : sa
-[2025-03-31 13:18:02] [WARN] ==> Aucun étudiant trouvé avec le code : saa
-[2025-03-31 13:18:03] [WARN] ==> Aucun étudiant trouvé avec le code : sa
-[2025-03-31 13:18:05] [WARN] ==> Aucun étudiant trouvé avec le code : sam
-[2025-03-31 13:18:05] [WARN] ==> Aucun étudiant trouvé avec le code : sami
-[2025-03-31 13:18:06] [WARN] ==> Aucun étudiant trouvé avec le code : samir
-[2025-03-31 13:18:10] [WARN] ==> Aucun étudiant trouvé avec le code : samir.sitahar07@gmail.com
-[2025-03-31 13:18:23] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:18:23] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 13:18:27] [WARN] ==> Aucun étudiant trouvé avec l'email : s
-[2025-03-31 13:18:27] [WARN] ==> Aucun étudiant trouvé avec l'email : sa
-[2025-03-31 13:18:28] [INFO] ==> Étudiant trouvé : Students(code=NJE145, lastName=SI TAHAR, firstName=SAMIR, email=samir.sitahar07@gmail.com, phone=0758804579, speciality=NT, entryAt=2025-04-30, firstDepartureMissionAt=2026-03-03, createdAt=2025-03-28T16:25:25.804)
-[2025-03-31 13:25:30] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:25:30] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 13:28:40] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:28:40] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 13:28:47] [WARN] ==> Aucun étudiant trouvé avec le code : S
-[2025-03-31 13:28:48] [WARN] ==> Aucun étudiant trouvé avec le code : SA
-[2025-03-31 13:28:48] [WARN] ==> Aucun étudiant trouvé avec le code : SA1
-[2025-03-31 13:28:48] [INFO] ==> Étudiant trouvé : Students(code=SA15, lastName=mourad, firstName=morad, email=mourad@gmail.com, phone=0654852145, speciality=BI, entryAt=2024-08-25, firstDepartureMissionAt=2026-03-22, createdAt=2025-03-31T10:31:42.968)
-[2025-03-31 13:28:51] [WARN] ==> Aucun étudiant trouvé avec le code : SA1
-[2025-03-31 13:28:51] [WARN] ==> Aucun étudiant trouvé avec le code : SA
-[2025-03-31 13:28:51] [WARN] ==> Aucun étudiant trouvé avec le code : S
-[2025-03-31 13:30:08] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:30:08] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 13:30:15] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:30:15] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 13:32:18] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:32:18] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 13:33:57] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:33:57] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 13:34:15] [WARN] ==> Suppression de l'étudiant avec le code : TER15
-[2025-03-31 13:34:15] [INFO] ==> Étudiant supprimé avec succès.
-[2025-03-31 13:34:15] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:34:15] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 13:34:21] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:34:21] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 13:35:16] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:35:16] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 13:36:20] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:36:20] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 13:46:50] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:46:50] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 13:46:53] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:46:53] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 13:47:03] [WARN] ==> Aucun étudiant trouvé avec le code : S
-[2025-03-31 13:47:03] [WARN] ==> Aucun étudiant trouvé avec le code : SA
-[2025-03-31 13:47:04] [WARN] ==> Aucun étudiant trouvé avec le code : SA1
-[2025-03-31 13:47:04] [INFO] ==> Étudiant trouvé : Students(code=SA15, lastName=mourad, firstName=morad, email=mourad@gmail.com, phone=0654852145, speciality=BI, entryAt=2024-08-25, firstDepartureMissionAt=2026-03-22, createdAt=2025-03-31T10:31:42.968)
-[2025-03-31 13:47:07] [WARN] ==> Aucun étudiant trouvé avec le code : SA1
-[2025-03-31 13:47:07] [WARN] ==> Aucun étudiant trouvé avec le code : SA
-[2025-03-31 13:47:07] [WARN] ==> Aucun étudiant trouvé avec le code : S
-[2025-03-31 13:47:32] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=SI147, lastName=michael, firstName=gyty, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-03-21T16:42:39.873525)
-[2025-03-31 13:47:32] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: duplicate key value violates unique constraint "ukfgqmjxile3b0tlhnkqrufxmde"
-  Detail: Key (email)=(yasinemdiho@gmail.com) already exists.] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [ukfgqmjxile3b0tlhnkqrufxmde]
-[2025-03-31 13:49:10] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=4785, lastName=SALIM, firstName=gyty, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-03-21T16:42:39.873525)
-[2025-03-31 13:49:10] [INFO] ==> Étudiant enregistré avec succès : Students(code=4785, lastName=SALIM, firstName=gyty, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-03-21T16:42:39.873525)
-[2025-03-31 13:49:10] [INFO] ==> Mise à jour des informations de l'étudiant avec le code : 4785
-[2025-03-31 13:49:10] [INFO] ==> Étudiant mis à jour avec succès : Students(code=4785, lastName=SALIM, firstName=gyty, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-03-21T16:42:39.873525)
-[2025-03-31 13:49:10] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:49:10] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-03-31 13:50:19] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=za145, lastName=moh, firstName=moh, email=moh@gmail.com, phone=04547203, speciality=BI, entryAt=2024-07-30, firstDepartureMissionAt=2025-07-30, createdAt=2025-03-31T13:49:19.526)
-[2025-03-31 13:50:20] [INFO] ==> Étudiant enregistré avec succès : Students(code=za145, lastName=moh, firstName=moh, email=moh@gmail.com, phone=04547203, speciality=BI, entryAt=2024-07-30, firstDepartureMissionAt=2025-07-30, createdAt=2025-03-31T13:49:19.526)
-[2025-03-31 13:50:20] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=za145, lastName=moh, firstName=moh, email=moh@gmail.com, phone=04547203, speciality=BI, entryAt=2024-07-30, firstDepartureMissionAt=2025-07-30, createdAt=2025-03-31T13:49:19.526)
-[2025-03-31 13:50:20] [INFO] ==> Étudiant enregistré avec succès : Students(code=za145, lastName=moh, firstName=moh, email=moh@gmail.com, phone=04547203, speciality=BI, entryAt=2024-07-30, firstDepartureMissionAt=2025-07-30, createdAt=2025-03-31T13:49:19.526)
-[2025-03-31 13:50:20] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 13:50:20] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 14:09:08] [WARN] ==> Aucun étudiant trouvé avec le code : S
-[2025-03-31 14:09:09] [WARN] ==> Aucun étudiant trouvé avec le code : SA
-[2025-03-31 14:09:09] [WARN] ==> Aucun étudiant trouvé avec le code : SA1
-[2025-03-31 14:09:09] [INFO] ==> Étudiant trouvé : Students(code=SA15, lastName=mourad, firstName=morad, email=mourad@gmail.com, phone=0654852145, speciality=BI, entryAt=2024-08-25, firstDepartureMissionAt=2026-03-22, createdAt=2025-03-31T10:31:42.968)
-[2025-03-31 14:09:12] [WARN] ==> Aucun étudiant trouvé avec le code : SA1
-[2025-03-31 14:09:12] [WARN] ==> Aucun étudiant trouvé avec le code : SA
-[2025-03-31 14:09:13] [WARN] ==> Aucun étudiant trouvé avec le code : S
-[2025-03-31 14:09:24] [WARN] ==> Aucun étudiant trouvé avec l'email : M
-[2025-03-31 14:09:24] [WARN] ==> Aucun étudiant trouvé avec l'email : MO
-[2025-03-31 14:09:25] [WARN] ==> Aucun étudiant trouvé avec l'email : MOH
-[2025-03-31 14:09:25] [WARN] ==> Aucun étudiant trouvé avec l'email : MOH@
-[2025-03-31 14:09:27] [WARN] ==> Aucun étudiant trouvé avec l'email : MOH@+
-[2025-03-31 14:09:27] [WARN] ==> Aucun étudiant trouvé avec l'email : MOH@
-[2025-03-31 14:09:27] [WARN] ==> Aucun étudiant trouvé avec l'email : MOH
-[2025-03-31 14:09:27] [WARN] ==> Aucun étudiant trouvé avec l'email : MO
-[2025-03-31 14:09:27] [WARN] ==> Aucun étudiant trouvé avec l'email : M
-[2025-03-31 14:09:29] [WARN] ==> Aucun étudiant trouvé avec l'email : m
-[2025-03-31 14:09:29] [WARN] ==> Aucun étudiant trouvé avec l'email : mo
-[2025-03-31 14:09:30] [WARN] ==> Aucun étudiant trouvé avec l'email : moh
-[2025-03-31 14:09:30] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@
-[2025-03-31 14:09:31] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@g
-[2025-03-31 14:09:31] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gm
-[2025-03-31 14:09:31] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gma
-[2025-03-31 14:09:33] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gmai
-[2025-03-31 14:09:33] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gmail
-[2025-03-31 14:09:34] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gmail.
-[2025-03-31 14:09:35] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gmail.c
-[2025-03-31 14:09:35] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gmail.cp
-[2025-03-31 14:09:35] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gmail.c
-[2025-03-31 14:09:36] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gmail.co
-[2025-03-31 14:09:36] [INFO] ==> Étudiant trouvé : Students(code=za145, lastName=moh, firstName=moh, email=moh@gmail.com, phone=04547203, speciality=BI, entryAt=2024-07-30, firstDepartureMissionAt=2025-07-30, createdAt=2025-03-31T13:49:19.526)
-[2025-03-31 14:09:38] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gmail.co
-[2025-03-31 14:09:38] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gmail.c
-[2025-03-31 14:09:38] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gmail.
-[2025-03-31 14:09:39] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gmail
-[2025-03-31 14:09:39] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gmai
-[2025-03-31 14:09:39] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gma
-[2025-03-31 14:09:39] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@gm
-[2025-03-31 14:09:39] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@g
-[2025-03-31 14:09:39] [WARN] ==> Aucun étudiant trouvé avec l'email : moh
-[2025-03-31 14:09:39] [WARN] ==> Aucun étudiant trouvé avec l'email : m
-[2025-03-31 14:09:39] [WARN] ==> Aucun étudiant trouvé avec l'email : moh@
-[2025-03-31 14:09:39] [WARN] ==> Aucun étudiant trouvé avec l'email : mo
-[2025-03-31 14:09:53] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 14:09:53] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 14:10:45] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=DER15, lastName=dfbdb, firstName=bfdsb, email=aaa@gmail.com, phone=075422345, speciality=NT, entryAt=2024-02-25, firstDepartureMissionAt=2025-06-25, createdAt=2025-03-31T14:09:57.860)
-[2025-03-31 14:10:46] [INFO] ==> Étudiant enregistré avec succès : Students(code=DER15, lastName=dfbdb, firstName=bfdsb, email=aaa@gmail.com, phone=075422345, speciality=NT, entryAt=2024-02-25, firstDepartureMissionAt=2025-06-25, createdAt=2025-03-31T14:09:57.860)
-[2025-03-31 14:10:46] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=DER15, lastName=dfbdb, firstName=bfdsb, email=aaa@gmail.com, phone=075422345, speciality=NT, entryAt=2024-02-25, firstDepartureMissionAt=2025-06-25, createdAt=2025-03-31T14:09:57.860)
-[2025-03-31 14:10:46] [INFO] ==> Étudiant enregistré avec succès : Students(code=DER15, lastName=dfbdb, firstName=bfdsb, email=aaa@gmail.com, phone=075422345, speciality=NT, entryAt=2024-02-25, firstDepartureMissionAt=2025-06-25, createdAt=2025-03-31T14:09:57.860)
-[2025-03-31 14:10:46] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 14:10:46] [INFO] ==> Nombre total d'étudiants trouvés : 5
-[2025-03-31 14:11:01] [WARN] ==> Suppression de l'étudiant avec le code : DER15
-[2025-03-31 14:11:01] [INFO] ==> Étudiant supprimé avec succès.
-[2025-03-31 14:11:01] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 14:11:01] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 14:11:18] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=za145, lastName=abas, firstName=aabas, email=moh@gmail.com, phone=04547203, speciality=BI, entryAt=2024-07-30, firstDepartureMissionAt=2025-07-30, createdAt=2025-03-31T13:49:19.526)
-[2025-03-31 14:11:18] [INFO] ==> Étudiant enregistré avec succès : Students(code=za145, lastName=abas, firstName=aabas, email=moh@gmail.com, phone=04547203, speciality=BI, entryAt=2024-07-30, firstDepartureMissionAt=2025-07-30, createdAt=2025-03-31T13:49:19.526)
-[2025-03-31 14:11:18] [INFO] ==> Mise à jour des informations de l'étudiant avec le code : za145
-[2025-03-31 14:11:18] [INFO] ==> Étudiant mis à jour avec succès : Students(code=za145, lastName=abas, firstName=aabas, email=moh@gmail.com, phone=04547203, speciality=BI, entryAt=2024-07-30, firstDepartureMissionAt=2025-07-30, createdAt=2025-03-31T13:49:19.526)
-[2025-03-31 14:11:18] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 14:11:18] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 14:12:02] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 14:12:02] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 14:12:02] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 14:12:02] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 14:13:38] [WARN] ==> Le token a expiré : JWT expired at 2025-03-31T14:13:02Z. Current time: 2025-03-31T14:13:38Z, a difference of 36956 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-03-31 14:13:39] [WARN] ==> Le token a expiré : JWT expired at 2025-03-31T14:13:02Z. Current time: 2025-03-31T14:13:39Z, a difference of 37094 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-03-31 14:13:39] [INFO] ==> Tentative de rafraîchissement du token.
-[2025-03-31 14:13:39] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 14:13:39] [WARN] ==> Aucun étudiant trouvé avec le code : S
-[2025-03-31 14:13:39] [WARN] ==> Aucun étudiant trouvé avec le code : SA
-[2025-03-31 14:13:42] [WARN] ==> Aucun étudiant trouvé avec le code : SA5
-[2025-03-31 14:13:43] [WARN] ==> Aucun étudiant trouvé avec le code : SA
-[2025-03-31 14:13:43] [WARN] ==> Aucun étudiant trouvé avec le code : SA1
-[2025-03-31 14:13:44] [WARN] ==> Aucun étudiant trouvé avec le code : SA16
-[2025-03-31 14:13:44] [WARN] ==> Aucun étudiant trouvé avec le code : SA165
-[2025-03-31 14:13:45] [WARN] ==> Aucun étudiant trouvé avec le code : SA16
-[2025-03-31 14:13:45] [WARN] ==> Aucun étudiant trouvé avec le code : SA1
-[2025-03-31 14:13:45] [INFO] ==> Étudiant trouvé : Students(code=SA15, lastName=mourad, firstName=morad, email=mourad@gmail.com, phone=0654852145, speciality=BI, entryAt=2024-08-25, firstDepartureMissionAt=2026-03-22, createdAt=2025-03-31T10:31:42.968)
-[2025-03-31 14:15:25] [WARN] ==> Aucun étudiant trouvé avec le code : SA1
-[2025-03-31 14:15:25] [WARN] ==> Aucun étudiant trouvé avec le code : SA
-[2025-03-31 14:15:25] [WARN] ==> Aucun étudiant trouvé avec le code : S
-[2025-03-31 14:15:48] [WARN] ==> Aucun étudiant trouvé avec le code : S
-[2025-03-31 14:15:48] [WARN] ==> Aucun étudiant trouvé avec le code : SA
-[2025-03-31 14:15:50] [WARN] ==> Aucun étudiant trouvé avec le code : SA1
-[2025-03-31 14:15:50] [INFO] ==> Étudiant trouvé : Students(code=SA15, lastName=mourad, firstName=morad, email=mourad@gmail.com, phone=0654852145, speciality=BI, entryAt=2024-08-25, firstDepartureMissionAt=2026-03-22, createdAt=2025-03-31T10:31:42.968)
-[2025-03-31 14:17:15] [INFO] ==> HikariPool-1 - Shutdown initiated...
-[2025-03-31 14:17:15] [INFO] ==> HikariPool-1 - Shutdown completed.
-[2025-03-31 14:20:19] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
-[2025-03-31 14:20:19] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
-[2025-03-31 14:20:28] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
-[2025-03-31 14:20:28] [INFO] ==> Starting service [Tomcat]
-[2025-03-31 14:20:28] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
-[2025-03-31 14:20:28] [INFO] ==> Initializing Spring embedded WebApplicationContext
-[2025-03-31 14:20:30] [INFO] ==> HikariPool-1 - Starting...
-[2025-03-31 14:20:31] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@312819ae
-[2025-03-31 14:20:31] [INFO] ==> HikariPool-1 - Start completed.
-[2025-03-31 14:20:43] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
-[2025-03-31 14:20:44] [INFO] ==> Started SpringbootPostgreSqlApplication in 27.859 seconds (process running for 30.02)
-[2025-03-31 14:20:48] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2025-03-31 14:20:49] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 14:20:49] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 14:21:10] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 14:21:10] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 14:21:10] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 14:21:10] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 14:22:46] [WARN] ==> Le token a expiré : JWT expired at 2025-03-31T14:22:10Z. Current time: 2025-03-31T14:22:46Z, a difference of 36166 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-03-31 14:22:46] [WARN] ==> Le token a expiré : JWT expired at 2025-03-31T14:22:10Z. Current time: 2025-03-31T14:22:46Z, a difference of 36344 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-03-31 14:22:46] [INFO] ==> Tentative de rafraîchissement du token.
-[2025-03-31 14:22:46] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-03-31 14:22:46] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-03-31 14:22:46] [INFO] ==> Nombre total d'étudiants trouvés : 4
-[2025-03-31 14:25:24] [WARN] ==> Le token a expiré : JWT expired at 2025-03-31T14:23:10Z. Current time: 2025-03-31T14:25:24Z, a difference of 134953 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-03-31 14:25:25] [WARN] ==> Le token a expiré : JWT expired at 2025-03-31T14:23:10Z. Current time: 2025-03-31T14:25:25Z, a difference of 135089 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-03-31 14:25:25] [INFO] ==> Tentative de rafraîchissement du token.
-[2025-03-31 14:25:25] [WARN] ==> Le refresh token a expiré.
+[2025-04-11 07:21:08] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+[2025-04-11 07:21:08] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
+[2025-04-11 07:21:41] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
+[2025-04-11 07:21:41] [INFO] ==> Starting service [Tomcat]
+[2025-04-11 07:21:41] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
+[2025-04-11 07:21:41] [INFO] ==> Initializing Spring embedded WebApplicationContext
+[2025-04-11 07:21:49] [INFO] ==> HikariPool-1 - Starting...
+[2025-04-11 07:21:55] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@77a4bac
+[2025-04-11 07:21:55] [INFO] ==> HikariPool-1 - Start completed.
+[2025-04-11 07:22:12] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
+[2025-04-11 07:22:12] [INFO] ==> Started SpringbootPostgreSqlApplication in 76.562 seconds (process running for 118.674)
+[2025-04-11 07:24:48] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-04-11 07:24:48] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-04-11 07:24:49] [WARN] ==> Échec de la connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com. Motif : Email ou mot de passe incorrect.
+[2025-04-11 07:24:57] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-04-11 07:24:57] [WARN] ==> Échec de la connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com. Motif : Email ou mot de passe incorrect.
+[2025-04-11 07:24:59] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-04-11 07:24:59] [WARN] ==> Échec de la connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com. Motif : Email ou mot de passe incorrect.
+[2025-04-11 07:25:16] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-04-11 07:25:16] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-04-11 07:25:20] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:25:20] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-11 07:25:21] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:25:21] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-11 07:25:21] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:25:21] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-11 07:25:21] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:25:21] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-11 07:25:21] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:25:21] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-11 07:25:36] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:25:36] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-11 07:26:33] [WARN] ==> Le token a expiré : JWT expired at 2025-04-11T07:26:16Z. Current time: 2025-04-11T07:26:33Z, a difference of 17127 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-04-11 07:26:33] [INFO] ==> Tentative de rafraîchissement du token.
+[2025-04-11 07:26:33] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-04-11 07:26:33] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=TF21, lastName=michael , firstName=michael, email=michael@gmail.com, phone=0457225481, speciality=NT, entryAt=2025-04-11, firstDepartureMissionAt=null, createdAt=2025-04-11T07:25:21.351)
+[2025-04-11 07:26:33] [INFO] ==> Étudiant enregistré avec succès : Students(code=TF21, lastName=michael , firstName=michael, email=michael@gmail.com, phone=0457225481, speciality=NT, entryAt=2025-04-11, firstDepartureMissionAt=null, createdAt=2025-04-11T07:25:21.351)
+[2025-04-11 07:27:00] [INFO] ==> Mise à jour des informations de l'étudiant avec le code : DER15
+[2025-04-11 07:27:00] [INFO] ==> Étudiant mis à jour avec succès : Students(code=DER15, lastName=Mohamed, firstName=Mohamed, email=mohamed@gmail.com, phone=0658804579, speciality=Nt, entryAt=2025-04-10, firstDepartureMissionAt=null, createdAt=2025-04-10T14:13:05.802)
+[2025-04-11 07:27:05] [INFO] ==> Étudiant trouvé : Students(code=TF21, lastName=michael , firstName=michael, email=michael@gmail.com, phone=0457225481, speciality=NT, entryAt=2025-04-11, firstDepartureMissionAt=null, createdAt=2025-04-11T07:25:21.351)
+[2025-04-11 07:27:05] [WARN] ==> Suppression de l'étudiant avec l'email : michael@gmail.com
+[2025-04-11 07:27:05] [INFO] ==> Étudiant supprimé avec succès.
+[2025-04-11 07:27:42] [INFO] ==> Étudiant trouvé : Students(code=DER15, lastName=Mohamed, firstName=Mohamed, email=mohamed@gmail.com, phone=0658804579, speciality=Nt, entryAt=2025-04-10, firstDepartureMissionAt=null, createdAt=2025-04-10T14:13:05.802)
+[2025-04-11 07:28:08] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:28:08] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-11 07:28:08] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:28:08] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-11 07:28:08] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:28:08] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-11 07:28:08] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:28:08] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-11 07:28:08] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:28:08] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-11 07:28:40] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=F74, lastName=salim, firstName=salim, email=samir.sitahar07@gmail.com, phone=0457225481, speciality=NT, entryAt=2025-04-11, firstDepartureMissionAt=null, createdAt=2025-04-11T07:28:08.651)
+[2025-04-11 07:28:40] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: duplicate key value violates unique constraint "ukfgqmjxile3b0tlhnkqrufxmde"
+  Detail: Key (email)=(samir.sitahar07@gmail.com) already exists.] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [ukfgqmjxile3b0tlhnkqrufxmde]
+[2025-04-11 07:29:09] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:29:09] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-11 07:29:10] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:29:10] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-11 07:29:10] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:29:10] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-11 07:29:10] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:29:10] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-11 07:29:10] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-11 07:29:10] [INFO] ==> Nombre total d'étudiants trouvés : 3

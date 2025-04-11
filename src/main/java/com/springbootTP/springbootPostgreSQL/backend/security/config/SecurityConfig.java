@@ -44,7 +44,7 @@ public class SecurityConfig {
         this.passwordEncoder = passwordEncoder;
     }
 
-    @Bean
+    /*@Bean
     public WebMvcConfigurer corsConfigurer() {
         return new WebMvcConfigurer() {
             @Override
@@ -56,7 +56,7 @@ public class SecurityConfig {
                         .allowCredentials(true);
             }
         };
-    }
+    }*/
 
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
@@ -68,7 +68,7 @@ public class SecurityConfig {
                     @Override
                     public CorsConfiguration getCorsConfiguration(HttpServletRequest request) {
                         CorsConfiguration cors = new CorsConfiguration();
-                        cors.setAllowedOrigins(Collections.singletonList("http://localhost:4200"));
+                        cors.setAllowedOrigins(Collections.singletonList("http://localhost:5173"));
                         cors.setAllowedMethods(Collections.singletonList("*"));
                         cors.setAllowedHeaders(Collections.singletonList("*"));
                         cors.setExposedHeaders(Collections.singletonList("Authorization"));
@@ -76,9 +76,11 @@ public class SecurityConfig {
                         return cors;
                     }
                 }))
+               /* .authorizeHttpRequests(auth -> auth
+                                .anyRequest().permitAll()*/
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/auth/**").permitAll() // Autorisation ouverte pour l'auth
-                        .requestMatchers("/api/students/**").hasAuthority("ROLE_ADMIN")
+                        .requestMatchers("/api/students/**").hasAuthority("ROLE_ADMIN") // Autorisation pour les admins
                         .anyRequest().authenticated()
                 )
                 .sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))

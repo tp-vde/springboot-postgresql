@@ -20,7 +20,7 @@ public class JwtUtil {
 
     // Durée de validité des tokens
     private static final long ACCESS_TOKEN_VALIDITY = 1000L * 60; // 1 minute
-    private static final long REFRESH_TOKEN_VALIDITY = 1000L * 60 *2; // 60 * 24; // 24 heures
+    private static final long REFRESH_TOKEN_VALIDITY = 1000L * 60 *10;
 
     // Générer un token d'accès
     public String generateAccessToken(String username) {
