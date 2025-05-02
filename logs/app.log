@@ -1,66 +1,63 @@
-[2025-04-11 07:21:08] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
-[2025-04-11 07:21:08] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
-[2025-04-11 07:21:41] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
-[2025-04-11 07:21:41] [INFO] ==> Starting service [Tomcat]
-[2025-04-11 07:21:41] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
-[2025-04-11 07:21:41] [INFO] ==> Initializing Spring embedded WebApplicationContext
-[2025-04-11 07:21:49] [INFO] ==> HikariPool-1 - Starting...
-[2025-04-11 07:21:55] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@77a4bac
-[2025-04-11 07:21:55] [INFO] ==> HikariPool-1 - Start completed.
-[2025-04-11 07:22:12] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
-[2025-04-11 07:22:12] [INFO] ==> Started SpringbootPostgreSqlApplication in 76.562 seconds (process running for 118.674)
-[2025-04-11 07:24:48] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
-[2025-04-11 07:24:48] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-04-11 07:24:49] [WARN] ==> Échec de la connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com. Motif : Email ou mot de passe incorrect.
-[2025-04-11 07:24:57] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-04-11 07:24:57] [WARN] ==> Échec de la connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com. Motif : Email ou mot de passe incorrect.
-[2025-04-11 07:24:59] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-04-11 07:24:59] [WARN] ==> Échec de la connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com. Motif : Email ou mot de passe incorrect.
-[2025-04-11 07:25:16] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-04-11 07:25:16] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-04-11 07:25:20] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:25:20] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-04-11 07:25:21] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:25:21] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-04-11 07:25:21] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:25:21] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-04-11 07:25:21] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:25:21] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-04-11 07:25:21] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:25:21] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-04-11 07:25:36] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:25:36] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-04-11 07:26:33] [WARN] ==> Le token a expiré : JWT expired at 2025-04-11T07:26:16Z. Current time: 2025-04-11T07:26:33Z, a difference of 17127 milliseconds.  Allowed clock skew: 0 milliseconds.
-[2025-04-11 07:26:33] [INFO] ==> Tentative de rafraîchissement du token.
-[2025-04-11 07:26:33] [INFO] ==> Rafraîchissement du token réussi pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
-[2025-04-11 07:26:33] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=TF21, lastName=michael , firstName=michael, email=michael@gmail.com, phone=0457225481, speciality=NT, entryAt=2025-04-11, firstDepartureMissionAt=null, createdAt=2025-04-11T07:25:21.351)
-[2025-04-11 07:26:33] [INFO] ==> Étudiant enregistré avec succès : Students(code=TF21, lastName=michael , firstName=michael, email=michael@gmail.com, phone=0457225481, speciality=NT, entryAt=2025-04-11, firstDepartureMissionAt=null, createdAt=2025-04-11T07:25:21.351)
-[2025-04-11 07:27:00] [INFO] ==> Mise à jour des informations de l'étudiant avec le code : DER15
-[2025-04-11 07:27:00] [INFO] ==> Étudiant mis à jour avec succès : Students(code=DER15, lastName=Mohamed, firstName=Mohamed, email=mohamed@gmail.com, phone=0658804579, speciality=Nt, entryAt=2025-04-10, firstDepartureMissionAt=null, createdAt=2025-04-10T14:13:05.802)
-[2025-04-11 07:27:05] [INFO] ==> Étudiant trouvé : Students(code=TF21, lastName=michael , firstName=michael, email=michael@gmail.com, phone=0457225481, speciality=NT, entryAt=2025-04-11, firstDepartureMissionAt=null, createdAt=2025-04-11T07:25:21.351)
-[2025-04-11 07:27:05] [WARN] ==> Suppression de l'étudiant avec l'email : michael@gmail.com
-[2025-04-11 07:27:05] [INFO] ==> Étudiant supprimé avec succès.
-[2025-04-11 07:27:42] [INFO] ==> Étudiant trouvé : Students(code=DER15, lastName=Mohamed, firstName=Mohamed, email=mohamed@gmail.com, phone=0658804579, speciality=Nt, entryAt=2025-04-10, firstDepartureMissionAt=null, createdAt=2025-04-10T14:13:05.802)
-[2025-04-11 07:28:08] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:28:08] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-04-11 07:28:08] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:28:08] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-04-11 07:28:08] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:28:08] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-04-11 07:28:08] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:28:08] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-04-11 07:28:08] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:28:08] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-04-11 07:28:40] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=F74, lastName=salim, firstName=salim, email=samir.sitahar07@gmail.com, phone=0457225481, speciality=NT, entryAt=2025-04-11, firstDepartureMissionAt=null, createdAt=2025-04-11T07:28:08.651)
-[2025-04-11 07:28:40] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: duplicate key value violates unique constraint "ukfgqmjxile3b0tlhnkqrufxmde"
-  Detail: Key (email)=(samir.sitahar07@gmail.com) already exists.] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [ukfgqmjxile3b0tlhnkqrufxmde]
-[2025-04-11 07:29:09] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:29:09] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-04-11 07:29:10] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:29:10] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-04-11 07:29:10] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:29:10] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-04-11 07:29:10] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:29:10] [INFO] ==> Nombre total d'étudiants trouvés : 3
-[2025-04-11 07:29:10] [INFO] ==> Récupération de la liste de tous les étudiants...
-[2025-04-11 07:29:10] [INFO] ==> Nombre total d'étudiants trouvés : 3
+[2025-04-17 12:20:59] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+[2025-04-17 12:20:59] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
+[2025-04-17 12:21:10] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
+[2025-04-17 12:21:10] [INFO] ==> Starting service [Tomcat]
+[2025-04-17 12:21:10] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
+[2025-04-17 12:21:11] [INFO] ==> Initializing Spring embedded WebApplicationContext
+[2025-04-17 12:21:13] [INFO] ==> HikariPool-1 - Starting...
+[2025-04-17 12:21:15] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4ae2c01b
+[2025-04-17 12:21:15] [INFO] ==> HikariPool-1 - Start completed.
+[2025-04-17 12:21:26] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
+[2025-04-17 12:21:26] [INFO] ==> Started SpringbootPostgreSqlApplication in 29.984 seconds (process running for 36.758)
+[2025-04-17 12:21:30] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-04-17 12:21:31] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-04-17 12:21:32] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-04-17 12:22:11] [ERROR] ==> [ERROR] ==> No static resource api/students/email/samir.sitahar07@gmail.com.
+[2025-04-17 12:23:43] [WARN] ==> Le token a expiré : JWT expired at 2025-03-28T16:40:19Z. Current time: 2025-04-17T12:23:43Z, a difference of 1712604013 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-04-17 12:23:49] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-04-17 12:23:50] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-04-17 12:24:08] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=4785, lastName=null, firstName=gyty, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-04-17T12:24:08.290536304)
+[2025-04-17 12:24:08] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: null value in column "lastname" of relation "vde_students" violates not-null constraint
+  Detail: Failing row contains (4785, 2025-04-17 12:24:08.290536, yasinemdiho@gmail.com, 2024-12-30, 2025-04-01, gyty, null, +3361247888, NT).] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [lastname" of relation "vde_students]
+[2025-04-17 12:25:28] [WARN] ==> Le token a expiré : JWT expired at 2025-04-17T12:24:50Z. Current time: 2025-04-17T12:25:28Z, a difference of 38630 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-04-17 12:25:54] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=4785, lastName=null, firstName=gyty, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-04-17T12:25:54.839119428)
+[2025-04-17 12:25:54] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: null value in column "lastname" of relation "vde_students" violates not-null constraint
+  Detail: Failing row contains (4785, 2025-04-17 12:25:54.839119, yasinemdiho@gmail.com, 2024-12-30, 2025-04-01, gyty, null, +3361247888, NT).] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [lastname" of relation "vde_students]
+[2025-04-17 12:26:51] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=4785, lastName=null, firstName=gyty, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-04-17T12:26:51.423572956)
+[2025-04-17 12:26:51] [ERROR] ==> [ERROR] ==> could not execute statement [ERROR: null value in column "lastname" of relation "vde_students" violates not-null constraint
+  Detail: Failing row contains (4785, 2025-04-17 12:26:51.423573, yasinemdiho@gmail.com, 2024-12-30, 2025-04-01, gyty, null, +3361247888, NT).] [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; SQL [insert into vde_students (created_at,email,entry_at,first_departure_mission_at,first_name,lastname,phone,speciality,code) values (?,?,?,?,?,?,?,?,?)]; constraint [lastname" of relation "vde_students]
+[2025-04-17 12:27:30] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=4785, lastName=michael, firstName=gyty, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-04-17T12:27:30.398257388)
+[2025-04-17 12:27:30] [INFO] ==> Étudiant enregistré avec succès : Students(code=4785, lastName=michael, firstName=gyty, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-04-17T12:27:30.398257388)
+[2025-04-17 12:27:34] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=4785, lastName=michael, firstName=gyty, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-04-17T12:27:34.810716181)
+[2025-04-17 12:27:34] [INFO] ==> Étudiant enregistré avec succès : Students(code=4785, lastName=michael, firstName=gyty, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-04-17T12:27:34.810716181)
+[2025-04-17 12:28:50] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-17 12:28:50] [INFO] ==> Nombre total d'étudiants trouvés : 4
+[2025-04-17 12:28:58] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=4785, lastName=michael, firstName=gyty, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-04-17T12:28:58.593797525)
+[2025-04-17 12:28:58] [INFO] ==> Étudiant enregistré avec succès : Students(code=4785, lastName=michael, firstName=gyty, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-04-17T12:28:58.593797525)
+[2025-04-17 12:29:11] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=4785, lastName=michael, firstName=ss, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-04-17T12:29:11.011547762)
+[2025-04-17 12:29:11] [INFO] ==> Étudiant enregistré avec succès : Students(code=4785, lastName=michael, firstName=ss, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-04-17T12:29:11.011547762)
+[2025-04-17 12:29:21] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-17 12:29:21] [INFO] ==> Nombre total d'étudiants trouvés : 4
+[2025-04-17 12:32:58] [INFO] ==> HikariPool-1 - Shutdown initiated...
+[2025-04-17 12:32:58] [INFO] ==> HikariPool-1 - Shutdown completed.
+[2025-04-17 12:33:11] [INFO] ==> Starting SpringbootPostgreSqlApplication v0.0.1-SNAPSHOT using Java 17.0.2 with PID 1 (/app/app.jar started by root in /app)
+[2025-04-17 12:33:11] [INFO] ==> No active profile set, falling back to 1 default profile: "default"
+[2025-04-17 12:33:17] [INFO] ==> Initializing ProtocolHandler ["http-nio-8080"]
+[2025-04-17 12:33:17] [INFO] ==> Starting service [Tomcat]
+[2025-04-17 12:33:17] [INFO] ==> Starting Servlet engine: [Apache Tomcat/10.1.36]
+[2025-04-17 12:33:17] [INFO] ==> Initializing Spring embedded WebApplicationContext
+[2025-04-17 12:33:21] [INFO] ==> HikariPool-1 - Starting...
+[2025-04-17 12:33:22] [INFO] ==> HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@3245efdb
+[2025-04-17 12:33:22] [INFO] ==> HikariPool-1 - Start completed.
+[2025-04-17 12:33:33] [INFO] ==> Starting ProtocolHandler ["http-nio-8080"]
+[2025-04-17 12:33:33] [INFO] ==> Started SpringbootPostgreSqlApplication in 23.981 seconds (process running for 27.103)
+[2025-04-17 12:33:34] [INFO] ==> Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2025-04-17 12:33:35] [INFO] ==> Tentative de connexion pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-04-17 12:33:36] [INFO] ==> Connexion réussie pour l'utilisateur avec l'email : samir.sitahar07@gmail.com
+[2025-04-17 12:33:54] [INFO] ==> Récupération de la liste de tous les étudiants...
+[2025-04-17 12:33:54] [INFO] ==> Nombre total d'étudiants trouvés : 4
+[2025-04-17 12:34:08] [WARN] ==> Le token a expiré : JWT expired at 2025-04-17T12:33:50Z. Current time: 2025-04-17T12:34:08Z, a difference of 18596 milliseconds.  Allowed clock skew: 0 milliseconds.
+[2025-04-17 12:34:17] [INFO] ==> Tentative d'enregistrement d'un nouvel étudiant : Students(code=4785, lastName=michael, firstName=as, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-04-17T12:34:17.940212106)
+[2025-04-17 12:34:18] [INFO] ==> Étudiant enregistré avec succès : Students(code=4785, lastName=michael, firstName=as, email=yasinemdiho@gmail.com, phone=+3361247888, speciality=NT, entryAt=2024-12-30, firstDepartureMissionAt=2025-04-01, createdAt=2025-04-17T12:34:17.940212106)
+[2025-04-17 12:48:44] [INFO] ==> HikariPool-1 - Shutdown initiated...
+[2025-04-17 12:48:44] [INFO] ==> HikariPool-1 - Shutdown completed.
